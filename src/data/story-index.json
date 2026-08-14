@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-14T08:20:16.229Z",
+  "source": {
+    "type": "one-time-initial-migration",
+    "notice": "ID、タイトル、章番号、話数、イベント日付だけを保持し、コンテンツ本体は収録しない。今後は公式公開情報または通常プレイで確認した情報を手動更新する。"
+  },
+  "stories": [
+    {
+      "id": "event-20001",
+      "kind": "event",
+      "sourceId": 20001,
+      "title": "god is no /w/ here",
+      "releaseDate": "2023-07-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20002",
+      "kind": "event",
+      "sourceId": 20002,
+      "title": "エレクトリック・サマー・バカンス",
+      "releaseDate": "2023-08-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20003",
+      "kind": "event",
+      "sourceId": 20003,
+      "title": "隠し味はひとさじのユーモア",
+      "releaseDate": "2023-08-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20004",
+      "kind": "event",
+      "sourceId": 20004,
+      "title": "泡沫烟花",
+      "releaseDate": "2023-08-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20005",
+      "kind": "event",
+      "sourceId": 20005,
+      "title": "脚光が照らすこれから",
+      "releaseDate": "2023-09-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20006",
+      "kind": "event",
+      "sourceId": 20006,
+      "title": "歌川高校体育祭！　～応援団長の一日～",
+      "releaseDate": "2023-09-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20007",
+      "kind": "event",
+      "sourceId": 20007,
+      "title": "FAIR IS FOUL, AND FOUL IS FAIR",
+      "releaseDate": "2023-09-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20008",
+      "kind": "event",
+      "sourceId": 20008,
+      "title": "北天のアルビレオ",
+      "releaseDate": "2023-10-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20010",
+      "kind": "event",
+      "sourceId": 20010,
+      "title": "マジカルガール☆ハロウィン",
+      "releaseDate": "2023-10-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20009",
+      "kind": "event",
+      "sourceId": 20009,
+      "title": "シリウスは日々是好日で",
+      "releaseDate": "2023-10-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20012",
+      "kind": "event",
+      "sourceId": 20012,
+      "title": "人には言えないアタシの叫び",
+      "releaseDate": "2023-11-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20011",
+      "kind": "event",
+      "sourceId": 20011,
+      "title": "ギムレットにお別れを",
+      "releaseDate": "2023-11-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20013",
+      "kind": "event",
+      "sourceId": 20013,
+      "title": "bet on faith？",
+      "releaseDate": "2023-11-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20015",
+      "kind": "event",
+      "sourceId": 20015,
+      "title": "泡雪でありますように",
+      "releaseDate": "2023-12-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20016",
+      "kind": "event",
+      "sourceId": 20016,
+      "title": "星明かりのおくりもの",
+      "releaseDate": "2023-12-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20017",
+      "kind": "event",
+      "sourceId": 20017,
+      "title": "新年はあなたの手を取って",
+      "releaseDate": "2023-12-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20018",
+      "kind": "event",
+      "sourceId": 20018,
+      "title": "秒針の安息",
+      "releaseDate": "2024-01-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20019",
+      "kind": "event",
+      "sourceId": 20019,
+      "title": "14光年はなれた隣で",
+      "releaseDate": "2024-01-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20014",
+      "kind": "event",
+      "sourceId": 20014,
+      "title": "メモワールに約束を",
+      "releaseDate": "2024-01-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20021",
+      "kind": "event",
+      "sourceId": 20021,
+      "title": "Valentine Cocktail Hour",
+      "releaseDate": "2024-02-09",
+      "episodes": 8
+    },
+    {
+      "id": "event-20020",
+      "kind": "event",
+      "sourceId": 20020,
+      "title": "ギャルからオタクに転身してみた件",
+      "releaseDate": "2024-02-18",
+      "episodes": 8
+    },
+    {
+      "id": "event-20025",
+      "kind": "event",
+      "sourceId": 20025,
+      "title": "#指先がつむぐ暗黒",
+      "releaseDate": "2024-02-29",
+      "episodes": 8
+    },
+    {
+      "id": "event-20042",
+      "kind": "event",
+      "sourceId": 20042,
+      "title": "ステラリズムシューターズ！",
+      "releaseDate": "2024-03-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20024",
+      "kind": "event",
+      "sourceId": 20024,
+      "title": "7番目のエトワールをさがして",
+      "releaseDate": "2024-03-21",
+      "episodes": 8
+    },
+    {
+      "id": "event-20022",
+      "kind": "event",
+      "sourceId": 20022,
+      "title": "トロイメライと悪魔",
+      "releaseDate": "2024-03-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20027",
+      "kind": "event",
+      "sourceId": 20027,
+      "title": "Bloom Time-Lapse",
+      "releaseDate": "2024-04-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20026",
+      "kind": "event",
+      "sourceId": 20026,
+      "title": "アツアツまごころ料理道！",
+      "releaseDate": "2024-04-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20028",
+      "kind": "event",
+      "sourceId": 20028,
+      "title": "星雲の窓辺",
+      "releaseDate": "2024-04-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20031",
+      "kind": "event",
+      "sourceId": 20031,
+      "title": "サイレント・リフレクション",
+      "releaseDate": "2024-05-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20030",
+      "kind": "event",
+      "sourceId": 20030,
+      "title": "Fashi∞nable！",
+      "releaseDate": "2024-05-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20029",
+      "kind": "event",
+      "sourceId": 20029,
+      "title": "bet or fold？",
+      "releaseDate": "2024-05-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20034",
+      "kind": "event",
+      "sourceId": 20034,
+      "title": "反逆、すべては目指す舞台のために",
+      "releaseDate": "2024-06-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20033",
+      "kind": "event",
+      "sourceId": 20033,
+      "title": "沫雪がとけたら",
+      "releaseDate": "2024-06-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20032",
+      "kind": "event",
+      "sourceId": 20032,
+      "title": "イノセンスにおしえて",
+      "releaseDate": "2024-06-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20035",
+      "kind": "event",
+      "sourceId": 20035,
+      "title": "go all out",
+      "releaseDate": "2024-07-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20036",
+      "kind": "event",
+      "sourceId": 20036,
+      "title": "シスター",
+      "releaseDate": "2024-07-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20037",
+      "kind": "event",
+      "sourceId": 20037,
+      "title": "プールサイド・セッション",
+      "releaseDate": "2024-07-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20038",
+      "kind": "event",
+      "sourceId": 20038,
+      "title": "夏、いわゆるダイスターの観察",
+      "releaseDate": "2024-08-10",
+      "episodes": 8
+    },
+    {
+      "id": "event-20039",
+      "kind": "event",
+      "sourceId": 20039,
+      "title": "ダイアローグは交わらない",
+      "releaseDate": "2024-08-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20023",
+      "kind": "event",
+      "sourceId": 20023,
+      "title": "響けエール！～ON staGE rocK！～",
+      "releaseDate": "2024-09-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20040",
+      "kind": "event",
+      "sourceId": 20040,
+      "title": "今は遠い星のリグレット",
+      "releaseDate": "2024-09-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20041",
+      "kind": "event",
+      "sourceId": 20041,
+      "title": "ペトリコールと推論",
+      "releaseDate": "2024-10-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20043",
+      "kind": "event",
+      "sourceId": 20043,
+      "title": "過現未HELLO-WIN！",
+      "releaseDate": "2024-10-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20044",
+      "kind": "event",
+      "sourceId": 20044,
+      "title": "Jump！L0ve→L1ve!!　前編",
+      "releaseDate": "2024-11-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20045",
+      "kind": "event",
+      "sourceId": 20045,
+      "title": "Jump！L0ve→L1ve!!　後編",
+      "releaseDate": "2024-11-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20046",
+      "kind": "event",
+      "sourceId": 20046,
+      "title": "ダブルキャストは想いあう",
+      "releaseDate": "2024-12-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20047",
+      "kind": "event",
+      "sourceId": 20047,
+      "title": "†迎春†　猫と烏の協奏曲",
+      "releaseDate": "2024-12-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20048",
+      "kind": "event",
+      "sourceId": 20048,
+      "title": "ふわり、湯けむり異文化旅情",
+      "releaseDate": "2025-01-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20049",
+      "kind": "event",
+      "sourceId": 20049,
+      "title": "遥か、ネバーランドに望む",
+      "releaseDate": "2025-01-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20050",
+      "kind": "event",
+      "sourceId": 20050,
+      "title": "えでキャン△",
+      "releaseDate": "2025-02-18",
+      "episodes": 8
+    },
+    {
+      "id": "event-20051",
+      "kind": "event",
+      "sourceId": 20051,
+      "title": "Break Loose",
+      "releaseDate": "2025-02-28",
+      "episodes": 8
+    },
+    {
+      "id": "event-20052",
+      "kind": "event",
+      "sourceId": 20052,
+      "title": "star-crossed star",
+      "releaseDate": "2025-03-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20053",
+      "kind": "event",
+      "sourceId": 20053,
+      "title": "Operation: Game Festival！",
+      "releaseDate": "2025-03-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20054",
+      "kind": "event",
+      "sourceId": 20054,
+      "title": "舞い散る桜に、今気づいて",
+      "releaseDate": "2025-04-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20055",
+      "kind": "event",
+      "sourceId": 20055,
+      "title": "優しいあの子になれたなら",
+      "releaseDate": "2025-04-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20056",
+      "kind": "event",
+      "sourceId": 20056,
+      "title": "熱でうだるあの子の為に",
+      "releaseDate": "2025-05-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20057",
+      "kind": "event",
+      "sourceId": 20057,
+      "title": "Beyond Grief",
+      "releaseDate": "2025-05-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20058",
+      "kind": "event",
+      "sourceId": 20058,
+      "title": "みんなで「ノリノリ」作戦です！",
+      "releaseDate": "2025-06-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20059",
+      "kind": "event",
+      "sourceId": 20059,
+      "title": "運動オンチでも見返したいっ！",
+      "releaseDate": "2025-06-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20060",
+      "kind": "event",
+      "sourceId": 20060,
+      "title": "茜差すメランコリック",
+      "releaseDate": "2025-07-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20061",
+      "kind": "event",
+      "sourceId": 20061,
+      "title": "肝試せ！　ファントムミーティング！",
+      "releaseDate": "2025-08-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20062",
+      "kind": "event",
+      "sourceId": 20062,
+      "title": "心の檻を越えて",
+      "releaseDate": "2025-09-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20063",
+      "kind": "event",
+      "sourceId": 20063,
+      "title": "魔法にまた、かけられて――",
+      "releaseDate": "2025-10-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20064",
+      "kind": "event",
+      "sourceId": 20064,
+      "title": "FASCINATE COORDINATE",
+      "releaseDate": "2025-11-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20065",
+      "kind": "event",
+      "sourceId": 20065,
+      "title": "開運！　餅をつく音、鐘の音",
+      "releaseDate": "2025-12-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20066",
+      "kind": "event",
+      "sourceId": 20066,
+      "title": "輝線、綺羅星の証明",
+      "releaseDate": "2026-01-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20067",
+      "kind": "event",
+      "sourceId": 20067,
+      "title": "荒神鎮め、栄達を為す",
+      "releaseDate": "2026-02-28",
+      "episodes": 8
+    },
+    {
+      "id": "event-20068",
+      "kind": "event",
+      "sourceId": 20068,
+      "title": "Easter Attraction！",
+      "releaseDate": "2026-03-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20069",
+      "kind": "event",
+      "sourceId": 20069,
+      "title": "Re:Start",
+      "releaseDate": "2026-04-30",
+      "episodes": 8
+    },
+    {
+      "id": "event-20070",
+      "kind": "event",
+      "sourceId": 20070,
+      "title": "少女海遊メモリアル！",
+      "releaseDate": "2026-05-31",
+      "episodes": 8
+    },
+    {
+      "id": "event-20071",
+      "kind": "event",
+      "sourceId": 20071,
+      "title": "Stella Generalprobe!",
+      "releaseDate": "2026-06-30",
+      "episodes": 8
+    },
+    {
+      "id": "main-2-10201",
+      "kind": "main_chapter",
+      "sourceId": 10201,
+      "troupeId": "eden",
+      "troupeName": "Eden",
+      "chapter": 1,
+      "title": "Eden 第1章",
+      "episodes": 20
+    },
+    {
+      "id": "main-2-10202",
+      "kind": "main_chapter",
+      "sourceId": 10202,
+      "troupeId": "eden",
+      "troupeName": "Eden",
+      "chapter": 2,
+      "title": "Eden 第2章",
+      "episodes": 20
+    },
+    {
+      "id": "main-2-10203",
+      "kind": "main_chapter",
+      "sourceId": 10203,
+      "troupeId": "eden",
+      "troupeName": "Eden",
+      "chapter": 3,
+      "title": "Eden 第3章",
+      "episodes": 21
+    },
+    {
+      "id": "main-2-10204",
+      "kind": "main_chapter",
+      "sourceId": 10204,
+      "troupeId": "eden",
+      "troupeName": "Eden",
+      "chapter": 4,
+      "title": "Eden 第4章",
+      "episodes": 24
+    },
+    {
+      "id": "main-1-10101",
+      "kind": "main_chapter",
+      "sourceId": 10101,
+      "troupeId": "sirius",
+      "troupeName": "シリウス",
+      "chapter": 1,
+      "title": "シリウス 第1章",
+      "episodes": 23
+    },
+    {
+      "id": "main-1-10102",
+      "kind": "main_chapter",
+      "sourceId": 10102,
+      "troupeId": "sirius",
+      "troupeName": "シリウス",
+      "chapter": 2,
+      "title": "シリウス 第2章",
+      "episodes": 20
+    },
+    {
+      "id": "main-1-10103",
+      "kind": "main_chapter",
+      "sourceId": 10103,
+      "troupeId": "sirius",
+      "troupeName": "シリウス",
+      "chapter": 3,
+      "title": "シリウス 第3章",
+      "episodes": 20
+    },
+    {
+      "id": "main-1-10104",
+      "kind": "main_chapter",
+      "sourceId": 10104,
+      "troupeId": "sirius",
+      "troupeName": "シリウス",
+      "chapter": 4,
+      "title": "シリウス 第4章",
+      "episodes": 24
+    },
+    {
+      "id": "main-3-10301",
+      "kind": "main_chapter",
+      "sourceId": 10301,
+      "troupeId": "gingaza",
+      "troupeName": "銀河座",
+      "chapter": 1,
+      "title": "銀河座 第1章",
+      "episodes": 20
+    },
+    {
+      "id": "main-3-10302",
+      "kind": "main_chapter",
+      "sourceId": 10302,
+      "troupeId": "gingaza",
+      "troupeName": "銀河座",
+      "chapter": 2,
+      "title": "銀河座 第2章",
+      "episodes": 20
+    },
+    {
+      "id": "main-3-10303",
+      "kind": "main_chapter",
+      "sourceId": 10303,
+      "troupeId": "gingaza",
+      "troupeName": "銀河座",
+      "chapter": 3,
+      "title": "銀河座 第3章",
+      "episodes": 20
+    },
+    {
+      "id": "main-3-10304",
+      "kind": "main_chapter",
+      "sourceId": 10304,
+      "troupeId": "gingaza",
+      "troupeName": "銀河座",
+      "chapter": 4,
+      "title": "銀河座 第4章",
+      "episodes": 24
+    },
+    {
+      "id": "main-4-10401",
+      "kind": "main_chapter",
+      "sourceId": 10401,
+      "troupeId": "denki",
+      "troupeName": "劇団電姫",
+      "chapter": 1,
+      "title": "劇団電姫 第1章",
+      "episodes": 20
+    },
+    {
+      "id": "main-4-10402",
+      "kind": "main_chapter",
+      "sourceId": 10402,
+      "troupeId": "denki",
+      "troupeName": "劇団電姫",
+      "chapter": 2,
+      "title": "劇団電姫 第2章",
+      "episodes": 20
+    },
+    {
+      "id": "main-4-10403",
+      "kind": "main_chapter",
+      "sourceId": 10403,
+      "troupeId": "denki",
+      "troupeName": "劇団電姫",
+      "chapter": 3,
+      "title": "劇団電姫 第3章",
+      "episodes": 20
+    },
+    {
+      "id": "main-4-10404",
+      "kind": "main_chapter",
+      "sourceId": 10404,
+      "troupeId": "denki",
+      "troupeName": "劇団電姫",
+      "chapter": 4,
+      "title": "劇団電姫 第4章",
+      "episodes": 24
+    },
+    {
+      "id": "main-5-10501",
+      "kind": "main_chapter",
+      "sourceId": 10501,
+      "troupeId": "finale",
+      "troupeName": "最終章",
+      "chapter": 1,
+      "title": "最終章",
+      "episodes": 20
+    },
+    {
+      "id": "main-999-10000",
+      "kind": "main_chapter",
+      "sourceId": 10000,
+      "troupeId": "prologue",
+      "troupeName": "序章",
+      "chapter": 0,
+      "title": "序章",
+      "episodes": 2
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+characters:
+  - id: kokona_otori
+    name: 鳳ここな
+    troupeId: sirius
+    color: '#fc8d98'
+  - id: shizuka
+    name: 静香
+    troupeId: sirius
+    color: '#af8fe8'
+    relatedCharacterIds: [kokona_otori]
+  - id: chisa_sasuga
+    name: 流石知冴
+    troupeId: sirius
+    color: '#f7b267'
+  - id: panda_yanaba
+    name: 柳場ぱんだ
+    troupeId: sirius
+    color: '#f1d36a'
+  - id: yae_niizuma
+    name: 新妻八恵
+    troupeId: sirius
+    color: '#ec9ac7'
+  - id: katrina_griebel
+    name: カトリナ・グリーベル
+    troupeId: sirius
+    color: '#5fb9ee'
+  - id: koyomi_senju
+    name: 千寿暦
+    troupeId: gingaza
+    color: '#a58de7'
+  - id: ramona_wolf
+    name: ラモーナ・ウォルフ
+    troupeId: gingaza
+    color: '#78c9a8'
+  - id: xue_wang
+    name: 王雪
+    troupeId: gingaza
+    color: '#6ca6e8'
+  - id: liliya_kurtbay
+    name: リリヤ・クルトベイ
+    troupeId: gingaza
+    color: '#e69a75'
+  - id: hikari_yonaguni
+    name: 与那国緋花里
+    troupeId: gingaza
+    color: '#f07d8d'
+  - id: iroha_senju
+    name: 千寿いろは
+    troupeId: denki
+    color: '#e8a15b'
+  - id: mito_shiromaru
+    name: 白丸美兎
+    troupeId: denki
+    color: '#70b9d7'
+  - id: kamira_akiru
+    name: 阿岐留カミラ
+    troupeId: denki
+    color: '#d49be4'
+  - id: tsubomi_nekoashi
+    name: 猫足蕾
+    troupeId: denki
+    color: '#9b86d9'
+  - id: towa_motosu
+    name: 本巣叶羽
+    troupeId: denki
+    color: '#f09a82'
+  - id: hatsumi_renjaku
+    name: 連尺野初魅
+    troupeId: eden
+    color: '#cd7489'
+  - id: daikoku_karasumori
+    name: 烏森大黒
+    troupeId: eden
+    color: '#765dba'
+  - id: nikako_toneri
+    name: 舎人仁花子
+    troupeId: eden
+    color: '#9ec86c'
+  - id: iruru_yorozu
+    name: 萬容
+    troupeId: eden
+    color: '#d69864'
+  - id: shigure_fudeshima
+    name: 筆島しぐれ
+    troupeId: eden
+    color: '#6b9acf'
