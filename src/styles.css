@@ -23,6 +23,7 @@ button, select { font: inherit; }
 .story-node { width: 238px; min-height: 132px; padding: 12px 13px; border: 1px solid #d9d2e4; border-top: 4px solid var(--troupe-color); border-radius: 12px; color: #292334; background: #fff; box-shadow: 0 5px 15px #42345d18; transition: box-shadow .15s, transform .15s; }
 .story-node:hover, .story-node.is-selected { transform: translateY(-2px); box-shadow: 0 10px 22px #42345d2b; }
 .story-node header { display: flex; justify-content: space-between; align-items: center; }
+.kind-badges, .troupe-dots { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; }
 .kind-badge { padding: 3px 6px; border-radius: 5px; color: #5d5370; background: #eeeaf4; font-size: 10px; font-weight: 700; }
 .troupe-dot { width: 9px; height: 9px; border-radius: 999px; background: var(--troupe-color); }
 .story-node h3 { margin: 9px 0 4px; font-size: 15px; line-height: 1.25; }

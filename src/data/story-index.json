@@ -8,7 +8,7 @@
   "stories": [
     {
       "id": "event-20001",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 2,
       "sourceId": 20001,
       "title": "god is no /w/ here",
@@ -44,7 +44,7 @@
     },
     {
       "id": "event-20005",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 4,
       "sourceId": 20005,
       "title": "脚光が照らすこれから",
@@ -62,7 +62,7 @@
     },
     {
       "id": "event-20007",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": [2,3],
       "sourceId": 20007,
       "title": "FAIR IS FOUL, AND FOUL IS FAIR",
@@ -116,7 +116,7 @@
     },
     {
       "id": "event-20013",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 2,
       "sourceId": 20013,
       "title": "bet on faith？",
@@ -152,7 +152,7 @@
     },
     {
       "id": "event-20018",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 2,
       "sourceId": 20018,
       "title": "秒針の安息",
@@ -170,7 +170,7 @@
     },
     {
       "id": "event-20014",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 1,
       "sourceId": 20014,
       "title": "メモワールに約束を",
@@ -215,7 +215,7 @@
     },
     {
       "id": "event-20024",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 1,
       "sourceId": 20024,
       "title": "7番目のエトワールをさがして",
@@ -224,7 +224,7 @@
     },
     {
       "id": "event-20022",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 4,
       "sourceId": 20022,
       "title": "トロイメライと悪魔",
@@ -251,7 +251,7 @@
     },
     {
       "id": "event-20028",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 3,
       "sourceId": 20028,
       "title": "星雲の窓辺",
@@ -260,7 +260,7 @@
     },
     {
       "id": "event-20031",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 1,
       "sourceId": 20031,
       "title": "サイレント・リフレクション",
@@ -278,7 +278,7 @@
     },
     {
       "id": "event-20029",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 2,
       "sourceId": 20029,
       "title": "bet or fold？",
@@ -314,7 +314,7 @@
     },
     {
       "id": "event-20035",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 2,
       "sourceId": 20035,
       "title": "go all out",
@@ -323,7 +323,7 @@
     },
     {
       "id": "event-20036",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": [3,4],
       "sourceId": 20036,
       "title": "シスター",
@@ -350,7 +350,7 @@
     },
     {
       "id": "event-20039",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 3,
       "sourceId": 20039,
       "title": "ダイアローグは交わらない",
@@ -368,7 +368,7 @@
     },
     {
       "id": "event-20040",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": [1,3],
       "sourceId": 20040,
       "title": "今は遠い星のリグレット",
@@ -377,7 +377,7 @@
     },
     {
       "id": "event-20041",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 2,
       "sourceId": 20041,
       "title": "ペトリコールと推論",
@@ -386,7 +386,7 @@
     },
     {
       "id": "event-20043",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": [1,2,3,4],
       "sourceId": 20043,
       "title": "過現未HELLO-WIN！",
@@ -440,7 +440,7 @@
     },
     {
       "id": "event-20049",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 1,
       "sourceId": 20049,
       "title": "遥か、ネバーランドに望む",
@@ -467,7 +467,7 @@
     },
     {
       "id": "event-20052",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 1,
       "sourceId": 20052,
       "title": "star-crossed star",
@@ -494,7 +494,7 @@
     },
     {
       "id": "event-20055",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 1,
       "sourceId": 20055,
       "title": "優しいあの子になれたなら",
@@ -512,7 +512,7 @@
     },
     {
       "id": "event-20057",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 2,
       "sourceId": 20057,
       "title": "Beyond Grief",
@@ -593,7 +593,7 @@
     },
     {
       "id": "event-20066",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 3,
       "sourceId": 20066,
       "title": "輝線、綺羅星の証明",
@@ -602,7 +602,7 @@
     },
     {
       "id": "event-20067",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 2,
       "sourceId": 20067,
       "title": "荒神鎮め、栄達を為す",
@@ -620,7 +620,7 @@
     },
     {
       "id": "event-20069",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 1,
       "sourceId": 20069,
       "title": "Re:Start",
@@ -638,7 +638,7 @@
     },
     {
       "id": "event-20071",
-      "kind": "event",
+      "kind": ["event", "key_story"],
       "troupeId": 1,
       "sourceId": 20071,
       "title": "Stella Generalprobe!",

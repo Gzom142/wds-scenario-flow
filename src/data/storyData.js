@@ -21,6 +21,17 @@ function normalizeTroupeIds(troupeId) {
   return Array.isArray(troupeId) ? troupeId : [troupeId]
 }
 
+function normalizeKinds(kind) {
+  if (kind === undefined || kind === null) return []
+  return [...new Set(Array.isArray(kind) ? kind : [kind])]
+}
+
+function baseKind(kinds) {
+  if (kinds.includes('main_chapter')) return 'main_chapter'
+  if (kinds.includes('event')) return 'event'
+  return null
+}
+
 function primaryTroupeId(story) {
   return story.troupeIds[0]
 }
@@ -63,7 +74,7 @@ function buildAutomaticEdges(stories) {
     let previousEvent = null
     let pendingMainStories = []
     timeline.forEach((story) => {
-      if (story.kind === 'main_chapter') {
+      if (story.kinds.includes('main_chapter')) {
         pendingMainStories.push(story)
         return
       }
@@ -91,12 +102,15 @@ function buildAutomaticEdges(stories) {
 function buildStories() {
   const overrides = new Map((storiesDocument.overrides ?? []).map((story) => [String(story.sourceId), story]))
   return storyIndex.stories
-    .filter((story) => story.kind === 'main_chapter' || story.kind === 'event')
+    .filter((story) => baseKind(normalizeKinds(story.kinds ?? story.kind)))
     .map((story) => {
       const override = overrides.get(String(story.sourceId)) ?? {}
+      const kinds = normalizeKinds(override.kinds ?? override.kind ?? story.kinds ?? story.kind)
       return {
         ...story,
         ...override,
+        kind: baseKind(kinds),
+        kinds,
         troupeIds: normalizeTroupeIds(override.troupeId ?? story.troupeId),
         characterIds: override.characterIds ?? [],
         releaseDate: override.releaseDate ?? story.releaseDate ?? null,
@@ -105,6 +119,7 @@ function buildStories() {
 }
 
 function assertData(stories) {
+  const validKinds = new Set(['main_chapter', 'event', 'collaboration', 'key_story', 'spot', 'actor_side', 'finale'])
   const characterIds = new Set(availableCharacters.map(({ id }) => String(id)))
   const troupeIds = new Set([...troupes.map(({ id }) => String(id)), 'prologue', 'finale'])
   const storyIds = new Set()
@@ -115,6 +130,10 @@ function assertData(stories) {
     const sourceId = String(story.sourceId)
     if (sourceIds.has(sourceId)) throw new Error(`重複したsourceId: ${sourceId}`)
     sourceIds.set(sourceId, story.id)
+    if (!story.kind) throw new Error(`${story.id} は main_chapter または event の基礎種別を必要とします`)
+    story.kinds.forEach((kind) => {
+      if (!validKinds.has(kind)) throw new Error(`${story.id} の種別が未定義です: ${kind}`)
+    })
     story.characterIds.forEach((id) => {
       if (!characterIds.has(String(id))) throw new Error(`${story.id} が未定義キャラクター ${id} を参照しています`)
     })

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-const kindNames = { main_chapter: 'メインストーリー', event: 'イベントストーリー', collaboration: 'コラボ', spot: 'スポットストーリー', actor_side: 'アクターサイドストーリー', finale: '最終章' }
+const kindNames = { main_chapter: 'メインストーリー', event: 'イベントストーリー', collaboration: 'コラボ', key_story: 'キーストーリー', spot: 'スポットストーリー', actor_side: 'アクターサイドストーリー', finale: '最終章' }
 
 export default function SidePanel({ node, onClose }) {
   const tweetContainerRef = useRef(null)
@@ -33,12 +33,13 @@ export default function SidePanel({ node, onClose }) {
 
   if (!node) return <aside className="side-panel empty"><p>ストーリーを選択すると、詳細を表示します。</p></aside>
   const { data } = node
+  const kinds = data.kinds ?? [data.kind]
   const episodeCount = Array.isArray(data.episodes) ? data.episodes.length : data.episodes
   const musicUrl = data.musicUrl ?? data.musicEmbedUrl
   return (
     <aside className="side-panel">
       <button className="close-button" onClick={onClose} aria-label="詳細を閉じる">×</button>
-      <p className="eyebrow">{kindNames[data.kind] ?? data.kind}</p>
+      <p className="eyebrow">{kinds.map((kind) => kindNames[kind] ?? kind).join(' / ')}</p>
       <h2>{data.title}</h2>
       {data.troupes.length > 0 && <p className="troupe-name" style={{ color: data.troupe.color }}>{data.troupes.map((troupe) => troupe.name).join(' / ')}</p>}
       <dl>
