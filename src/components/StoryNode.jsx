@@ -18,7 +18,7 @@ export default function StoryNode({ data, selected }) {
       <Handle type="target" position={Position.Top} />
       <header>
         <span className="kind-badge">{icon} {label}</span>
-        {data.troupe && <span className="troupe-dot" title={data.troupe.name} />}
+        {data.troupes.map((troupe) => <span key={troupe.id} className="troupe-dot" title={troupe.name} style={{ background: troupe.color }} />)}
       </header>
       <h3>{data.title}</h3>
       <p className="node-meta">{chapterText ?? '独立ストーリー'} · {data.releaseDate}</p>

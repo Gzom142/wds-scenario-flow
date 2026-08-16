@@ -2,48 +2,45 @@ layout:
   centerX: 0
   episodeSpacing: 310
   rowSpacing: 270
+  mixedEventOffset: 70
 troupes:
-  - id: sirius
+  - id: 1
     name: シリウス
     color: '#d95f7a'
     description: 浅草を拠点とする、華やかな音楽劇で知られる劇団。
-  - id: gingaza
-    name: 銀河座
-    color: '#8065c8'
-    description: 上野を拠点とする、王道かつスタンダードな劇を好む大規模劇団。
-  - id: denki
-    name: 劇団電姫
-    color: '#ce8745'
-    description: 秋葉原を拠点とする、2.5次元舞台を中心とした劇団。
-  - id: eden
+  - id: 2
     name: Eden
     color: '#7370a8'
     description: 独創的な劇を展開する劇団。
+  - id: 3
+    name: 銀河座
+    color: '#8065c8'
+    description: 上野を拠点とする、王道かつスタンダードな劇を好む大規模劇団。
+  - id: 4
+    name: 劇団電姫
+    color: '#ce8745'
+    description: 秋葉原を拠点とする、2.5次元舞台を中心とした劇団。
 
 # story-index.json の索引データへ補足する、手動管理の情報。
 # sourceId は story-index.json の sourceId を指定する。
 # tweetUrl は公式Xの投稿本体URL（https://x.com/.../status/...）を指定する。
 overrides:
   - sourceId: 10101
-    characterIds: [kokona_otori, shizuka, chisa_sasuga, panda_yanaba, yae_niizuma, katrina_griebel]
+    characterIds: [1, 2, 3, 4, 5, 6]
+    musicUrl: https://music.apple.com/jp/album/%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E8%BC%9D%E3%81%8D%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055268?i=1712055269
+    musicEmbedUrl: https://embed.music.apple.com/jp/album/%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E8%BC%9D%E3%81%8D%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055268?i=1712055269
   - sourceId: 10201
-    characterIds: [hatsumi_renjaku, daikoku_karasumori, nikako_toneri, iruru_yorozu, shigure_fudeshima]
+    characterIds: [17, 18, 19, 20, 21]
   - sourceId: 10204
     officialUrl: https://wds-stellarium.com/news/4733
   - sourceId: 10301
-    characterIds: [koyomi_senju, ramona_wolf, xue_wang, liliya_kurtbay, hikari_yonaguni]
+    characterIds: [7, 8, 9, 10, 11]
   - sourceId: 10401
-    characterIds: [iroha_senju, mito_shiromaru, kamira_akiru, tsubomi_nekoashi, towa_motosu]
+    characterIds: [12, 13, 14, 15, 16]
   - sourceId: 20013
-    troupeId: eden
-    characterIds: [hatsumi_renjaku, iruru_yorozu]
+    troupeId: 2
+    characterIds: [17, 20]
   # 「脚光が照らすこれから」の予告投稿。依頼URLのクエリ文字列は省略して保存する。
   # 関連する「新イベント開催のお知らせ」本体は別投稿（status/1700418768965685715）。
   - sourceId: 20005
     tweetUrl: https://x.com/wds_game/status/1700781156268900618
-
-# 自動索引だけでは判定できない、明示的な物語上の接続。
-edges:
-  - source: main-2-10201
-    target: event-20013
-    relation: interlude
