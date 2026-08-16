@@ -46,6 +46,7 @@ export default function App() {
   const reset = () => { setDraft(emptyFilter); setFilter(emptyFilter); setSelectedNode(null) }
 
   return <main className="app-shell">
+    <p className="data-notice" role="status">現時点で各データは未入力の部分があります</p>
     <header className="app-header">
       <div><p className="site-kicker">WORLD DAI STAR</p><h1>ストーリーライン</h1></div>
       <p className="fan-notice">
