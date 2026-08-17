@@ -37,10 +37,147 @@ overrides:
     characterIds: [7, 8, 9, 10, 11]
   - sourceId: 10401
     characterIds: [12, 13, 14, 15, 16]
+  - sourceId: 20001
+    tweetUrl: https://x.com/wds_game/status/1685258875212382208
+  - sourceId: 20002
+    tweetUrl: https://x.com/wds_game/status/1689547132666015751
+  - sourceId: 20003
+    tweetUrl: https://x.com/wds_game/status/1692808618528170242
+  - sourceId: 20004
+    tweetUrl: https://x.com/wds_game/status/1697168538979680264
+  - sourceId: 20005
+    tweetUrl: https://x.com/wds_game/status/1700781156268900618
+  - sourceId: 20006
+    tweetUrl: https://x.com/wds_game/status/1704074100023386263
+  - sourceId: 20007
+    tweetUrl: https://x.com/wds_game/status/1708028912624660640
+  - sourceId: 20008
+    tweetUrl: https://x.com/wds_game/status/1711338718290641252
+  - sourceId: 20009
+    tweetUrl: https://x.com/wds_game/status/1719262938727661844
+  - sourceId: 20010
+    tweetUrl: https://x.com/wds_game/status/1714962551132602661
+  - sourceId: 20011
+    tweetUrl: https://x.com/wds_game/status/1722886817807233493
+  - sourceId: 20012
+    tweetUrl: https://x.com/wds_game/status/1726510696463245367
   - sourceId: 20013
     troupeId: 2
     characterIds: [17, 20]
-  # 「脚光が照らすこれから」の予告投稿。依頼URLのクエリ文字列は省略して保存する。
-  # 関連する「新イベント開催のお知らせ」本体は別投稿（status/1700418768965685715）。
-  - sourceId: 20005
-    tweetUrl: https://x.com/wds_game/status/1700781156268900618
+    tweetUrl: https://x.com/wds_game/status/1732719098952609875
+  - sourceId: 20014
+    tweetUrl: https://x.com/wds_game/status/1734166637660766529
+  - sourceId: 20015
+    tweetUrl: https://x.com/wds_game/status/1737382415700795394
+  - sourceId: 20016
+    tweetUrl: https://x.com/wds_game/status/1739996294750580985
+  - sourceId: 20017
+    tweetUrl: https://x.com/wds_game/status/1744677265773035856
+  - sourceId: 20018
+    tweetUrl: https://x.com/wds_game/status/1748616351290204626
+  - sourceId: 20019
+    tweetUrl: https://x.com/wds_game/status/1753372702382170113
+  - sourceId: 20020
+    tweetUrl: https://x.com/wds_game/status/1755865104304988167
+  - sourceId: 20021
+    tweetUrl: https://x.com/wds_game/status/1758447630948929826
+  - sourceId: 20022
+    tweetUrl: https://x.com/wds_game/status/1774346140659462305
+  - sourceId: 20023
+    tweetUrl: https://x.com/wds_game/status/1764245333649846422
+  - sourceId: 20024
+    tweetUrl: https://x.com/wds_game/status/1770406156084879757
+  - sourceId: 20025
+    tweetUrl: https://x.com/wds_game/status/1763112116293124462
+  - sourceId: 20026
+    tweetUrl: https://x.com/wds_game/status/1781277690785632709
+  - sourceId: 20027
+    tweetUrl: https://x.com/wds_game/status/1777653433018851765
+  - sourceId: 20028
+    tweetUrl: https://x.com/wds_game/status/1784902475843313950
+  - sourceId: 20029
+    tweetUrl: https://x.com/wds_game/status/1788841773068161353
+  - sourceId: 20030
+    tweetUrl: https://x.com/wds_game/status/1792465533574451294
+  - sourceId: 20031
+    tweetUrl: https://x.com/wds_game/status/1795806150220222857
+  - sourceId: 20032
+    tweetUrl: https://x.com/wds_game/status/1800075426771165536
+  - sourceId: 20033
+    tweetUrl: https://x.com/wds_game/status/1803699528857489736
+  - sourceId: 20034
+    tweetUrl: https://x.com/wds_game/status/1807034911574114560
+  - sourceId: 20035
+    tweetUrl: https://x.com/wds_game/status/1810977496466346095
+  - sourceId: 20036
+    tweetUrl: https://x.com/wds_game/status/1814570947925451196
+  - sourceId: 20037
+    tweetUrl: https://x.com/wds_game/status/1818557213893349683
+  - sourceId: 20038
+    tweetUrl: https://x.com/wds_game/status/1822181088531452341
+  - sourceId: 20039
+    tweetUrl: https://x.com/wds_game/status/1829499696915898629
+  - sourceId: 20040
+    tweetUrl: https://x.com/wds_game/status/1837038997627097235
+  - sourceId: 20041
+    tweetUrl: https://x.com/wds_game/status/1840662872646447290
+  - sourceId: 20042
+    tweetUrl: https://x.com/wds_game/status/1847910627060203978
+  - sourceId: 20043
+    tweetUrl: https://x.com/wds_game/status/1851896893124563115
+  - sourceId: 20044
+    tweetUrl: https://x.com/wds_game/status/1859144825184154032
+  - sourceId: 20045
+    tweetUrl: https://x.com/wds_game/status/1862768530586050777
+  - sourceId: 20046
+    tweetUrl: https://x.com/wds_game/status/1869699208439005263
+  - sourceId: 20047
+    tweetUrl: https://x.com/wds_game/status/1873973108270305482
+  - sourceId: 20048
+    tweetUrl: https://x.com/wds_game/status/1880933226329547208
+  - sourceId: 20049
+    tweetUrl: https://x.com/wds_game/status/1885236580312330692
+  - sourceId: 20050
+    tweetUrl: https://x.com/wds_game/status/1891759809461895314
+  - sourceId: 20051
+    tweetUrl: https://x.com/wds_game/status/1895066360763555918
+  - sourceId: 20052
+    tweetUrl: https://x.com/wds_game/status/1902314109837947055
+  - sourceId: 20053
+    tweetUrl: https://x.com/wds_game/status/1906617711888884114
+  - sourceId: 20054
+    tweetUrl: https://x.com/wds_game/status/1913548140504076776
+  - sourceId: 20055
+    tweetUrl: https://x.com/wds_game/status/1917172031982014737
+  - sourceId: 20056
+    tweetUrl: https://x.com/wds_game/status/1924425195303154155
+  - sourceId: 20057
+    tweetUrl: https://x.com/wds_game/status/1928406033728475604
+  - sourceId: 20058
+    tweetUrl: https://x.com/wds_game/status/1924438333939466498
+  - sourceId: 20059
+    tweetUrl: https://x.com/wds_game/status/1939277668291358976
+  - sourceId: 20060
+    tweetUrl: https://x.com/wds_game/status/1950511698902732807
+  - sourceId: 20061
+    tweetUrl: https://x.com/wds_game/status/1961745727123780070
+  - sourceId: 20062
+    tweetUrl: https://x.com/wds_game/status/1972617352463200668
+  - sourceId: 20063
+    tweetUrl: https://x.com/wds_game/status/1983851379295670495
+  - sourceId: 20064
+    tweetUrl: https://x.com/wds_game/status/1994723012361257029
+  - sourceId: 20065
+    tweetUrl: https://x.com/wds_game/status/2005957034567688543
+  - sourceId: 20066
+    tweetUrl: https://x.com/wds_game/status/2017191058849820835
+  - sourceId: 20067
+    tweetUrl: https://x.com/wds_game/status/2027337933095928319
+  - sourceId: 20068
+    tweetUrl: https://x.com/wds_game/status/2038571942903746683
+  - sourceId: 20069
+    tweetUrl: https://x.com/wds_game/status/2049443582155927969
+  - sourceId: 20070
+    tweetUrl: https://x.com/wds_game/status/2060677606182445266
+  - sourceId: 20071
+    tweetUrl: https://x.com/wds_game/status/2071549238002037006
