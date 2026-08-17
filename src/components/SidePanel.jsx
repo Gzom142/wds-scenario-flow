@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-const kindNames = { main_chapter: 'メインストーリー', event: 'イベントストーリー', collaboration: 'コラボ', spot: 'スポットストーリー', actor_side: 'アクターサイドストーリー', finale: '最終章' }
+const kindNames = { main_chapter: 'メインストーリー', event: 'イベントストーリー', collaboration: 'コラボ', key_story: 'キーストーリー', spot: 'スポットストーリー', actor_side: 'アクターサイドストーリー', finale: '最終章' }
 
 export default function SidePanel({ node, onClose }) {
   const tweetContainerRef = useRef(null)
@@ -33,27 +33,44 @@ export default function SidePanel({ node, onClose }) {
 
   if (!node) return <aside className="side-panel empty"><p>ストーリーを選択すると、詳細を表示します。</p></aside>
   const { data } = node
+  const kinds = data.kinds ?? [data.kind]
   const episodeCount = Array.isArray(data.episodes) ? data.episodes.length : data.episodes
+  const musicUrl = data.musicUrl ?? data.musicEmbedUrl
   return (
     <aside className="side-panel">
       <button className="close-button" onClick={onClose} aria-label="詳細を閉じる">×</button>
-      <p className="eyebrow">{kindNames[data.kind] ?? data.kind}</p>
+      <p className="eyebrow">{kinds.map((kind) => kindNames[kind] ?? kind).join(' / ')}</p>
       <h2>{data.title}</h2>
-      {data.troupe && <p className="troupe-name" style={{ color: data.troupe.color }}>{data.troupe.name}</p>}
+      {data.troupes.length > 0 && <p className="troupe-name" style={{ color: data.troupe.color }}>{data.troupes.map((troupe) => troupe.name).join(' / ')}</p>}
       <dl>
         <div><dt>公開日</dt><dd>{data.releaseDate}</dd></div>
         {data.chapter && <div><dt>章</dt><dd>第{data.chapter}章</dd></div>}
         {episodeCount && <div><dt>話数</dt><dd>全{episodeCount}話</dd></div>}
       </dl>
-      <section><h3>公式告知</h3>
+      {(tweetUrl || data.officialUrl) && <section><h3>公式告知</h3>
         {tweetUrl ? (
           <div ref={tweetContainerRef} className="tweet-embed" aria-label="公式X投稿" />
-        ) : data.officialUrl ? (
-          <p className="tweet-fallback"><a href={data.officialUrl} target="_blank" rel="noreferrer">公式サイトの告知を見る</a><br />X投稿URLは未登録です。</p>
         ) : (
-          <p className="tweet-fallback">公式X投稿URLは未登録です。</p>
+          <p className="tweet-fallback"><a href={data.officialUrl} target="_blank" rel="noreferrer">公式サイトの告知を見る</a></p>
         )}
-      </section>
+      </section>}
+      {musicUrl && <section><h3>関連楽曲</h3>
+        {data.musicEmbedUrl ? (
+          <div className="music-embed">
+            <iframe
+              title={`${data.title}の関連楽曲`}
+              src={data.musicEmbedUrl}
+              allow="autoplay *; encrypted-media *;"
+              frameBorder="0"
+              height="150"
+              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+            />
+            {data.musicUrl && <a className="music-link" href={data.musicUrl} target="_blank" rel="noreferrer">Apple Musicで開く</a>}
+          </div>
+        ) : (
+          <p className="tweet-fallback"><a href={musicUrl} target="_blank" rel="noreferrer">関連楽曲をApple Musicで開く</a></p>
+        )}
+      </section>}
       <section><h3>登場キャラクター</h3><ul className="character-list">
         {data.characters.map((character) => <li key={character.id}><i style={{ background: character.color }} />{character.name}</li>)}
       </ul></section>

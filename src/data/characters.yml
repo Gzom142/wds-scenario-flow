@@ -1,86 +1,86 @@
 characters:
-  - id: kokona_otori
+  - id: 1
     name: 鳳ここな
-    troupeId: sirius
+    troupeId: 1
     color: '#fc8d98'
-  - id: shizuka
+  - id: 2
     name: 静香
-    troupeId: sirius
+    troupeId: 1
     color: '#af8fe8'
-    relatedCharacterIds: [kokona_otori]
-  - id: chisa_sasuga
+    relatedCharacterIds: [1]
+  - id: 3
     name: 流石知冴
-    troupeId: sirius
+    troupeId: 1
     color: '#f7b267'
-  - id: panda_yanaba
+  - id: 4
     name: 柳場ぱんだ
-    troupeId: sirius
+    troupeId: 1
     color: '#f1d36a'
-  - id: yae_niizuma
+  - id: 5
     name: 新妻八恵
-    troupeId: sirius
+    troupeId: 1
     color: '#ec9ac7'
-  - id: katrina_griebel
+  - id: 6
     name: カトリナ・グリーベル
-    troupeId: sirius
+    troupeId: 1
     color: '#5fb9ee'
-  - id: koyomi_senju
+  - id: 7
     name: 千寿暦
-    troupeId: gingaza
+    troupeId: 3
     color: '#a58de7'
-  - id: ramona_wolf
+  - id: 8
     name: ラモーナ・ウォルフ
-    troupeId: gingaza
+    troupeId: 3
     color: '#78c9a8'
-  - id: xue_wang
+  - id: 9
     name: 王雪
-    troupeId: gingaza
+    troupeId: 3
     color: '#6ca6e8'
-  - id: liliya_kurtbay
+  - id: 10
     name: リリヤ・クルトベイ
-    troupeId: gingaza
+    troupeId: 3
     color: '#e69a75'
-  - id: hikari_yonaguni
+  - id: 11
     name: 与那国緋花里
-    troupeId: gingaza
+    troupeId: 3
     color: '#f07d8d'
-  - id: iroha_senju
+  - id: 12
     name: 千寿いろは
-    troupeId: denki
+    troupeId: 4
     color: '#e8a15b'
-  - id: mito_shiromaru
+  - id: 13
     name: 白丸美兎
-    troupeId: denki
+    troupeId: 4
     color: '#70b9d7'
-  - id: kamira_akiru
+  - id: 14
     name: 阿岐留カミラ
-    troupeId: denki
+    troupeId: 4
     color: '#d49be4'
-  - id: tsubomi_nekoashi
+  - id: 15
     name: 猫足蕾
-    troupeId: denki
+    troupeId: 4
     color: '#9b86d9'
-  - id: towa_motosu
+  - id: 16
     name: 本巣叶羽
-    troupeId: denki
+    troupeId: 4
     color: '#f09a82'
-  - id: hatsumi_renjaku
+  - id: 17
     name: 連尺野初魅
-    troupeId: eden
+    troupeId: 2
     color: '#cd7489'
-  - id: daikoku_karasumori
+  - id: 18
     name: 烏森大黒
-    troupeId: eden
+    troupeId: 2
     color: '#765dba'
-  - id: nikako_toneri
+  - id: 19
     name: 舎人仁花子
-    troupeId: eden
+    troupeId: 2
     color: '#9ec86c'
-  - id: iruru_yorozu
+  - id: 20
     name: 萬容
-    troupeId: eden
+    troupeId: 2
     color: '#d69864'
-  - id: shigure_fudeshima
+  - id: 21
     name: 筆島しぐれ
-    troupeId: eden
+    troupeId: 2
     color: '#6b9acf'

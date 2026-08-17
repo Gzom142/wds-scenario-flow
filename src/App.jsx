@@ -3,10 +3,10 @@ import { Background, Controls, MiniMap, ReactFlow, ReactFlowProvider, useReactFl
 import Filter from './components/Filter.jsx'
 import SidePanel from './components/SidePanel.jsx'
 import StoryNode from './components/StoryNode.jsx'
-import { availableCharacters, initialEdges, initialNodes, storyKinds, troupes } from './data/storyData.js'
+import { availableCharacters, initialEdges, initialNodes, troupes } from './data/storyData.js'
 
 const nodeTypes = { story: StoryNode }
-const emptyFilter = { troupeId: '', kind: '', characterId: '' }
+const emptyFilter = { troupeId: '', characterId: '' }
 
 function FlowCanvas({ nodes, edges, onSelect }) {
   const { fitView } = useReactFlow()
@@ -28,13 +28,17 @@ export default function App() {
 
   const { nodes, edges } = useMemo(() => {
     const matches = (node) => (
-      (!filter.troupeId || node.data.troupeId === filter.troupeId) &&
-      (!filter.kind || node.data.kind === filter.kind) &&
-      (!filter.characterId || node.data.characterIds.includes(filter.characterId))
+      (!filter.troupeId || node.data.troupeIds.some((id) => String(id) === filter.troupeId)) &&
+      (!filter.characterId || node.data.characterIds.some((id) => String(id) === filter.characterId))
     )
     const nextNodes = initialNodes.filter(matches)
     const ids = new Set(nextNodes.map((node) => node.id))
-    return { nodes: nextNodes, edges: initialEdges.filter((edge) => ids.has(edge.source) && ids.has(edge.target)) }
+    const nextEdges = initialEdges.filter((edge) => (
+      ids.has(edge.source) &&
+      ids.has(edge.target) &&
+      (!filter.troupeId || edge.data.troupeIds.some((id) => String(id) === filter.troupeId))
+    ))
+    return { nodes: nextNodes, edges: nextEdges }
   }, [filter])
 
   const selectNode = useCallback((node) => setSelectedNode(node), [])
@@ -42,6 +46,7 @@ export default function App() {
   const reset = () => { setDraft(emptyFilter); setFilter(emptyFilter); setSelectedNode(null) }
 
   return <main className="app-shell">
+    <p className="data-notice" role="status">現時点で各データは未入力の部分があります</p>
     <header className="app-header">
       <div><p className="site-kicker">WORLD DAI STAR</p><h1>ストーリーライン</h1></div>
       <p className="fan-notice">
@@ -50,7 +55,7 @@ export default function App() {
         <a href="https://world-dai-star.com/news/1947" target="_blank" rel="noreferrer">二次創作ガイドライン</a>
       </p>
     </header>
-    <Filter draft={draft} onChange={setDraft} onApply={apply} onReset={reset} troupes={troupes} characters={availableCharacters} kinds={storyKinds} />
+    <Filter draft={draft} onChange={setDraft} onApply={apply} onReset={reset} troupes={troupes} characters={availableCharacters} />
     <ReactFlowProvider>
       <section className="workspace" aria-label="ストーリーライン">
         <div className="flow-area"><FlowCanvas nodes={nodes} edges={edges} onSelect={selectNode} /></div>

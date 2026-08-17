@@ -1,4 +1,4 @@
-export default function Filter({ draft, onChange, onApply, onReset, troupes, characters, kinds }) {
+export default function Filter({ draft, onChange, onApply, onReset, troupes, characters }) {
   const update = (key, value) => onChange({ ...draft, [key]: value })
   return (
     <form className="filter-bar" onSubmit={(event) => { event.preventDefault(); onApply() }}>
@@ -6,12 +6,6 @@ export default function Filter({ draft, onChange, onApply, onReset, troupes, cha
         <select value={draft.troupeId} onChange={(event) => update('troupeId', event.target.value)}>
           <option value="">すべて</option>
           {troupes.map((troupe) => <option key={troupe.id} value={troupe.id}>{troupe.name}</option>)}
-        </select>
-      </label>
-      <label>種別
-        <select value={draft.kind} onChange={(event) => update('kind', event.target.value)}>
-          <option value="">すべて</option>
-          {kinds.map((kind) => <option key={kind.id} value={kind.id}>{kind.label}</option>)}
         </select>
       </label>
       <label>登場キャラクター
