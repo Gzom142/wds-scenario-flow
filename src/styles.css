@@ -45,6 +45,7 @@ dt { color: #81788e; } dd { margin: 0; color: #3f364b; }
 .tweet-embed .twitter-tweet { margin: 0 !important; }
 .tweet-fallback { padding: 10px 11px; border: 1px solid #e6e0ee; border-radius: 8px; background: #faf9fc; }
 .tweet-fallback a { color: #5e4f83; font-weight: 700; }
+.tweet-link { margin-top: 8px !important; }
 .music-embed iframe { display: block; width: 100%; max-width: 660px; overflow: hidden; border: 0; border-radius: 8px; background: transparent; }
 .music-link { display: inline-block; margin-top: 7px; color: #5e4f83; font-size: 12px; font-weight: 700; }
 .character-list { display: grid; gap: 7px; margin: 0; padding: 0; list-style: none; font-size: 13px; }.character-list li { display: flex; align-items: center; gap: 8px; }.character-list i { width: 9px; height: 9px; border-radius: 50%; }
