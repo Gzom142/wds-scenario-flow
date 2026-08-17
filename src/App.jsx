@@ -24,7 +24,7 @@ function FlowCanvas({ nodes, edges, onSelect }) {
 export default function App() {
   const [draft, setDraft] = useState(emptyFilter)
   const [filter, setFilter] = useState(emptyFilter)
-  const [selectedNode, setSelectedNode] = useState(null)
+  const [selectedNodeId, setSelectedNodeId] = useState(null)
 
   const { nodes, edges } = useMemo(() => {
     const matches = (node) => (
@@ -39,11 +39,12 @@ export default function App() {
       (!filter.troupeId || edge.data.troupeIds.some((id) => String(id) === filter.troupeId))
     ))
     return { nodes: nextNodes, edges: nextEdges }
-  }, [filter])
+  }, [filter, initialNodes, initialEdges])
 
-  const selectNode = useCallback((node) => setSelectedNode(node), [])
-  const apply = () => { setFilter(draft); setSelectedNode(null) }
-  const reset = () => { setDraft(emptyFilter); setFilter(emptyFilter); setSelectedNode(null) }
+  const selectedNode = nodes.find((node) => node.id === selectedNodeId) ?? null
+  const selectNode = useCallback((node) => setSelectedNodeId(node.id), [])
+  const apply = () => { setFilter(draft); setSelectedNodeId(null) }
+  const reset = () => { setDraft(emptyFilter); setFilter(emptyFilter); setSelectedNodeId(null) }
 
   return <main className="app-shell">
     <p className="data-notice" role="status">現時点で各データは未入力の部分があります</p>
@@ -59,7 +60,7 @@ export default function App() {
     <ReactFlowProvider>
       <section className="workspace" aria-label="ストーリーライン">
         <div className="flow-area"><FlowCanvas nodes={nodes} edges={edges} onSelect={selectNode} /></div>
-        <SidePanel node={selectedNode} onClose={() => setSelectedNode(null)} />
+        <SidePanel node={selectedNode} onClose={() => setSelectedNodeId(null)} />
       </section>
     </ReactFlowProvider>
   </main>

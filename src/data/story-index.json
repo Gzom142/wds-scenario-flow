@@ -79,39 +79,39 @@
       "episodes": 8
     },
     {
-      "id": "event-20010",
-      "kind": "event",
-      "troupeId": 4,
-      "sourceId": 20010,
-      "title": "マジカルガール☆ハロウィン",
-      "releaseDate": "2023-10-20",
-      "episodes": 8
-    },
-    {
       "id": "event-20009",
       "kind": "event",
       "troupeId": 1,
-      "sourceId": 20009,
+      "sourceId": 20010,
       "title": "シリウスは日々是好日で",
       "releaseDate": "2023-10-31",
       "episodes": 8
     },
     {
-      "id": "event-20012",
+      "id": "event-20010",
       "kind": "event",
-      "troupeId": [1,2,4],
-      "sourceId": 20012,
-      "title": "人には言えないアタシの叫び",
-      "releaseDate": "2023-11-10",
+      "troupeId": 4,
+      "sourceId": 20009,
+      "title": "マジカルガール☆ハロウィン",
+      "releaseDate": "2023-10-20",
       "episodes": 8
     },
     {
       "id": "event-20011",
       "kind": "event",
       "troupeId": 3,
-      "sourceId": 20011,
+      "sourceId": 20012,
       "title": "ギムレットにお別れを",
       "releaseDate": "2023-11-20",
+      "episodes": 8
+    },
+    {
+      "id": "event-20012",
+      "kind": "event",
+      "troupeId": [1,2,4],
+      "sourceId": 20011,
+      "title": "人には言えないアタシの叫び",
+      "releaseDate": "2023-11-10",
       "episodes": 8
     },
     {
@@ -124,10 +124,19 @@
       "episodes": 8
     },
     {
+      "id": "event-20014",
+      "kind": ["event", "key_story"],
+      "troupeId": 1,
+      "sourceId": 20019,
+      "title": "メモワールに約束を",
+      "releaseDate": "2024-01-31",
+      "episodes": 8
+    },
+    {
       "id": "event-20015",
       "kind": "event",
       "troupeId": [1,3,4],
-      "sourceId": 20015,
+      "sourceId": 20014,
       "title": "泡雪でありますように",
       "releaseDate": "2023-12-10",
       "episodes": 8
@@ -136,7 +145,7 @@
       "id": "event-20016",
       "kind": "event",
       "troupeId": 3,
-      "sourceId": 20016,
+      "sourceId": 20015,
       "title": "星明かりのおくりもの",
       "releaseDate": "2023-12-20",
       "episodes": 8
@@ -145,7 +154,7 @@
       "id": "event-20017",
       "kind": "event",
       "troupeId": [1,3],
-      "sourceId": 20017,
+      "sourceId": 20016,
       "title": "新年はあなたの手を取って",
       "releaseDate": "2023-12-31",
       "episodes": 8
@@ -154,7 +163,7 @@
       "id": "event-20018",
       "kind": ["event", "key_story"],
       "troupeId": 2,
-      "sourceId": 20018,
+      "sourceId": 20017,
       "title": "秒針の安息",
       "releaseDate": "2024-01-10",
       "episodes": 8
@@ -163,25 +172,16 @@
       "id": "event-20019",
       "kind": "event",
       "troupeId": 1,
-      "sourceId": 20019,
+      "sourceId": 20018,
       "title": "14光年はなれた隣で",
       "releaseDate": "2024-01-20",
-      "episodes": 8
-    },
-    {
-      "id": "event-20014",
-      "kind": ["event", "key_story"],
-      "troupeId": 1,
-      "sourceId": 20014,
-      "title": "メモワールに約束を",
-      "releaseDate": "2024-01-31",
       "episodes": 8
     },
     {
       "id": "event-20021",
       "kind": "event",
       "troupeId": 2,
-      "sourceId": 20021,
+      "sourceId": 20020,
       "title": "Valentine Cocktail Hour",
       "releaseDate": "2024-02-09",
       "episodes": 8
@@ -190,7 +190,7 @@
       "id": "event-20020",
       "kind": "event",
       "troupeId": 4,
-      "sourceId": 20020,
+      "sourceId": 20021,
       "title": "ギャルからオタクに転身してみた件",
       "releaseDate": "2024-02-18",
       "episodes": 8
@@ -199,7 +199,7 @@
       "id": "event-20025",
       "kind": "event",
       "troupeId": 2,
-      "sourceId": 20025,
+      "sourceId": 20022,
       "title": "#指先がつむぐ暗黒",
       "releaseDate": "2024-02-29",
       "episodes": 8
@@ -208,7 +208,7 @@
       "id": "event-20042",
       "kind": "event",
       "troupeId": [3,4],
-      "sourceId": 20042,
+      "sourceId": 20023,
       "title": "ステラリズムシューターズ！",
       "releaseDate": "2024-03-10",
       "episodes": 8
@@ -226,7 +226,7 @@
       "id": "event-20022",
       "kind": ["event", "key_story"],
       "troupeId": 4,
-      "sourceId": 20022,
+      "sourceId": 20025,
       "title": "トロイメライと悪魔",
       "releaseDate": "2024-03-31",
       "episodes": 8
@@ -235,7 +235,7 @@
       "id": "event-20027",
       "kind": "event",
       "troupeId": 1,
-      "sourceId": 20027,
+      "sourceId": 20026,
       "title": "Bloom Time-Lapse",
       "releaseDate": "2024-04-10",
       "episodes": 8
@@ -244,7 +244,7 @@
       "id": "event-20026",
       "kind": "event",
       "troupeId": [3,4],
-      "sourceId": 20026,
+      "sourceId": 20027,
       "title": "アツアツまごころ料理道！",
       "releaseDate": "2024-04-20",
       "episodes": 8
@@ -262,7 +262,7 @@
       "id": "event-20031",
       "kind": ["event", "key_story"],
       "troupeId": 1,
-      "sourceId": 20031,
+      "sourceId": 20029,
       "title": "サイレント・リフレクション",
       "releaseDate": "2024-05-10",
       "episodes": 8
@@ -280,7 +280,7 @@
       "id": "event-20029",
       "kind": ["event", "key_story"],
       "troupeId": 2,
-      "sourceId": 20029,
+      "sourceId": 20031,
       "title": "bet or fold？",
       "releaseDate": "2024-05-31",
       "episodes": 8
@@ -289,7 +289,7 @@
       "id": "event-20034",
       "kind": "event",
       "troupeId": 4,
-      "sourceId": 20034,
+      "sourceId": 20032,
       "title": "反逆、すべては目指す舞台のために",
       "releaseDate": "2024-06-10",
       "episodes": 8
@@ -307,7 +307,7 @@
       "id": "event-20032",
       "kind": "event",
       "troupeId": [1,3],
-      "sourceId": 20032,
+      "sourceId": 20034,
       "title": "イノセンスにおしえて",
       "releaseDate": "2024-06-30",
       "episodes": 8
@@ -361,7 +361,7 @@
       "id": "event-20023",
       "kind": "event",
       "troupeId": 3,
-      "sourceId": 20023,
+      "sourceId": 20040,
       "title": "響けエール！～ON staGE rocK！～",
       "releaseDate": "2024-09-20",
       "episodes": 8
@@ -370,7 +370,7 @@
       "id": "event-20040",
       "kind": ["event", "key_story"],
       "troupeId": [1,3],
-      "sourceId": 20040,
+      "sourceId": 20041,
       "title": "今は遠い星のリグレット",
       "releaseDate": "2024-09-30",
       "episodes": 8
@@ -379,7 +379,7 @@
       "id": "event-20041",
       "kind": ["event", "key_story"],
       "troupeId": 2,
-      "sourceId": 20041,
+      "sourceId": 20042,
       "title": "ペトリコールと推論",
       "releaseDate": "2024-10-20",
       "episodes": 8

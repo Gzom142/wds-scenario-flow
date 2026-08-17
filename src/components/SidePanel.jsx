@@ -47,9 +47,12 @@ export default function SidePanel({ node, onClose }) {
         {data.chapter && <div><dt>章</dt><dd>第{data.chapter}章</dd></div>}
         {episodeCount && <div><dt>話数</dt><dd>全{episodeCount}話</dd></div>}
       </dl>
-      {(tweetUrl || data.officialUrl) && <section><h3>公式告知</h3>
+      {(tweetUrl || data.officialUrl) && <section>
         {tweetUrl ? (
-          <div ref={tweetContainerRef} className="tweet-embed" aria-label="公式X投稿" />
+          <>
+            <div ref={tweetContainerRef} className="tweet-embed" aria-label="公式X投稿" />
+            <p className="tweet-fallback tweet-link"><a href={tweetUrl} target="_blank" rel="noreferrer">公式Xで投稿を開く</a></p>
+          </>
         ) : (
           <p className="tweet-fallback"><a href={data.officialUrl} target="_blank" rel="noreferrer">公式サイトの告知を見る</a></p>
         )}
