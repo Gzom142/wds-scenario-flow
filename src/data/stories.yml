@@ -29,14 +29,51 @@ overrides:
     characterIds: [1, 2, 3, 4, 5, 6]
     musicUrl: https://music.apple.com/jp/album/%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E8%BC%9D%E3%81%8D%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055268?i=1712055269
     musicEmbedUrl: https://embed.music.apple.com/jp/album/%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E8%BC%9D%E3%81%8D%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055268?i=1712055269
+  - sourceId: 10102
+    characterIds: [1, 2, 3, 4, 5, 6]
+    tweetUrl: https://x.com/wds_game/status/1685198725503975424
+  - sourceId: 10103
+    characterIds: [1, 2, 3, 4, 5, 6]
+    tweetUrl: https://x.com/wds_game/status/1816747430383415724
+  - sourceId: 10103
+    characterIds: [1, 2, 3, 4, 5, 6]
+    tweetUrl: https://x.com/wds_game/status/1946523455735955889
   - sourceId: 10201
     characterIds: [17, 18, 19, 20, 21]
+  - sourceId: 10202
+    characterIds: [17, 18, 19, 20, 21]
+    tweetUrl: https://x.com/wds_game/status/1783770720247697800
+  - sourceId: 10203
+    characterIds: [17, 18, 19, 20, 21]
+    tweetUrl: https://x.com/wds_game/status/1916039552030150968
   - sourceId: 10204
+    characterIds: [17, 18, 19, 20, 21]
     officialUrl: https://wds-stellarium.com/news/4733
+    tweetUrl: https://x.com/wds_game/status/2045819698928033976
   - sourceId: 10301
     characterIds: [7, 8, 9, 10, 11]
+  - sourceId: 10302
+    characterIds: [7, 8, 9, 10, 11]
+    tweetUrl: https://x.com/wds_game/status/1716773278000496892
+  - sourceId: 10303
+    characterIds: [7, 8, 9, 10, 11]
+    tweetUrl: https://x.com/wds_game/status/1849782966131531981
+  - sourceId: 10304
+    characterIds: [7, 8, 9, 10, 11]
+    tweetUrl: https://x.com/wds_game/status/1980182196813271285
   - sourceId: 10401
     characterIds: [12, 13, 14, 15, 16]
+  - sourceId: 10402
+    characterIds: [12, 13, 14, 15, 16]
+    tweetUrl: https://x.com/wds_game/status/1750793235512152326
+  - sourceId: 10403
+    characterIds: [12, 13, 14, 15, 16]
+    tweetUrl: https://x.com/wds_game/status/1882031274950631764
+  - sourceId: 10404
+    characterIds: [12, 13, 14, 15, 16]
+    tweetUrl: https://x.com/wds_game/status/2013208139156365602
+  - sourceId: 10501
+    tweetUrl: https://x.com/wds_game/status/2078796998652903428
   - sourceId: 20001
     tweetUrl: https://x.com/wds_game/status/1685258875212382208
   - sourceId: 20002
