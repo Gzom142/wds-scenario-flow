@@ -1,5 +1,14 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { Background, Controls, MiniMap, ReactFlow, ReactFlowProvider, useReactFlow } from '@xyflow/react'
+import {
+  Background,
+  Controls,
+  MiniMap,
+  ReactFlow,
+  ReactFlowProvider,
+  useNodesInitialized,
+  useReactFlow,
+  useStore,
+} from '@xyflow/react'
 import Filter from './components/Filter.jsx'
 import SidePanel from './components/SidePanel.jsx'
 import StoryNavigator from './components/StoryNavigator.jsx'
@@ -10,16 +19,30 @@ const nodeTypes = { story: StoryNode }
 const emptyFilter = { troupeId: '', characterId: '' }
 
 function FlowCanvas({ nodes, edges, selectedNodeId, focusRequest, onSelect }) {
-  const { fitView } = useReactFlow()
+  const { fitView, getNodesBounds } = useReactFlow()
+  const nodesInitialized = useNodesInitialized()
+  const viewportWidth = useStore((state) => state.width)
   const flowNodes = useMemo(() => nodes.map((node) => ({
     ...node,
     selected: node.id === selectedNodeId,
   })), [nodes, selectedNodeId])
+  const horizontalBounds = useMemo(() => (
+    nodesInitialized && flowNodes.length ? getNodesBounds(flowNodes) : null
+  ), [flowNodes, getNodesBounds, nodesInitialized])
+  const minZoom = useMemo(() => {
+    if (!horizontalBounds?.width || !viewportWidth) return 0.1
+    const horizontalPadding = viewportWidth <= 800 ? 16 : 32
+    return Math.max(0.1, Math.min(1, (viewportWidth - horizontalPadding * 2) / horizontalBounds.width))
+  }, [horizontalBounds, viewportWidth])
+  const translateExtent = useMemo(() => horizontalBounds ? [
+    [horizontalBounds.x, -Infinity],
+    [horizontalBounds.x + horizontalBounds.width, Infinity],
+  ] : undefined, [horizontalBounds])
 
   useEffect(() => {
     const frame = requestAnimationFrame(() => fitView({ padding: 0.22, duration: 260, maxZoom: 1 }))
     return () => cancelAnimationFrame(frame)
-  }, [nodes, fitView])
+  }, [nodes, fitView, minZoom])
 
   useEffect(() => {
     if (!focusRequest) return undefined
@@ -32,10 +55,27 @@ function FlowCanvas({ nodes, edges, selectedNodeId, focusRequest, onSelect }) {
     return () => cancelAnimationFrame(frame)
   }, [focusRequest, fitView])
 
-  return <ReactFlow nodes={flowNodes} edges={edges} nodeTypes={nodeTypes} onNodeClick={(_, node) => onSelect(node)} fitView fitViewOptions={{ padding: 0.22, maxZoom: 1 }} nodesDraggable={false} nodesConnectable={false} elementsSelectable>
+  return <ReactFlow
+    nodes={flowNodes}
+    edges={edges}
+    nodeTypes={nodeTypes}
+    onNodeClick={(_, node) => onSelect(node)}
+    fitView
+    fitViewOptions={{ padding: 0.22, maxZoom: 1 }}
+    minZoom={minZoom}
+    translateExtent={translateExtent}
+    nodesDraggable={false}
+    nodesConnectable={false}
+    elementsSelectable
+  >
     <Background gap={24} size={1} color="#ded9e8" />
     <Controls showInteractive={false} />
-    <MiniMap pannable zoomable nodeColor={(node) => node.data?.troupe?.color ?? '#817a91'} />
+    <MiniMap
+      pannable
+      zoomable
+      style={{ width: 40, height: 180 }}
+      nodeColor={(node) => node.data?.troupe?.color ?? '#817a91'}
+    />
   </ReactFlow>
 }
 
