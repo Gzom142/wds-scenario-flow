@@ -57,7 +57,7 @@ export default function SidePanel({ node, onClose }) {
           <p className="tweet-fallback"><a href={data.officialUrl} target="_blank" rel="noreferrer">公式サイトの告知を見る</a></p>
         )}
       </section>}
-      {musicUrl && <section><h3>関連楽曲</h3>
+      {musicUrl && <section>
         {data.musicEmbedUrl ? (
           <div className="music-embed">
             <iframe
