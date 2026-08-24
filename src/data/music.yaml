@@ -1,0 +1,626 @@
+playlistUrl: "https://music.apple.com/jp/playlist/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC-%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0-song-collection-for-streaming/pl.u-XkD0Y0RT2zYlWB1"
+tracks:
+  - number: 1
+    title: "シリウスの輝きのように"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E8%BC%9D%E3%81%8D%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055269"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E8%BC%9D%E3%81%8D%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055268?i=1712055269"
+  - number: 2
+    title: "プラネタリウム・レヴュー"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%97%E3%83%A9%E3%83%8D%E3%82%BF%E3%83%AA%E3%82%A6%E3%83%A0-%E3%83%AC%E3%83%B4%E3%83%A5%E3%83%BC/1712057284"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%97%E3%83%A9%E3%83%8D%E3%82%BF%E3%83%AA%E3%82%A6%E3%83%A0-%E3%83%AC%E3%83%B4%E3%83%A5%E3%83%BC/1712057283?i=1712057284"
+  - number: 3
+    title: "デアエ・エクス・マキナ!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%87%E3%82%A2%E3%82%A8-%E3%82%A8%E3%82%AF%E3%82%B9-%E3%83%9E%E3%82%AD%E3%83%8A/1712056772"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%87%E3%82%A2%E3%82%A8-%E3%82%A8%E3%82%AF%E3%82%B9-%E3%83%9E%E3%82%AD%E3%83%8A/1712056771?i=1712056772"
+  - number: 4
+    title: "Faith in Expression"
+    musicUrl: "https://music.apple.com/jp/song/faith-in-expression/1712055103"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/faith-in-expression/1712055102?i=1712055103"
+  - number: 5
+    title: "勿忘唄"
+    musicUrl: "https://music.apple.com/jp/song/%E5%8B%BF%E5%BF%98%E5%94%84/1712056305"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%8B%BF%E5%BF%98%E5%94%84/1712056304?i=1712056305"
+  - number: 6
+    title: "悠久月華"
+    musicUrl: "https://music.apple.com/jp/song/%E6%82%A0%E4%B9%85%E6%9C%88%E8%8F%AF/1712056208"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%82%A0%E4%B9%85%E6%9C%88%E8%8F%AF/1712056207?i=1712056208"
+  - number: 7
+    title: "Drawing World"
+    musicUrl: "https://music.apple.com/jp/song/drawing-world/1712055197"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/drawing-world/1712055196?i=1712055197"
+  - number: 8
+    title: "Masquerade"
+    musicUrl: "https://music.apple.com/jp/song/masquerade/1712056825"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/masquerade/1712056824?i=1712056825"
+  - number: 9
+    title: "Eternity"
+    musicUrl: "https://music.apple.com/jp/song/eternity/1726311697"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/eternity/1726311696?i=1726311697"
+  - number: 10
+    title: "Decide"
+    musicUrl: "https://music.apple.com/jp/song/decide/1712055054"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/decide/1712055053?i=1712055054"
+  - number: 11
+    title: "ウタカタメロディ"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%A6%E3%82%BF%E3%82%AB%E3%82%BF%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3/1712056932"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%A6%E3%82%BF%E3%82%AB%E3%82%BF%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3/1712056931?i=1712056932"
+  - number: 12
+    title: "アイ・ウィル!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%A2%E3%82%A4-%E3%82%A6%E3%82%A3%E3%83%AB/1726311986"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%A2%E3%82%A4-%E3%82%A6%E3%82%A3%E3%83%AB/1726311984?i=1726311986"
+  - number: 13
+    title: "I Wanna"
+    musicUrl: "https://music.apple.com/jp/song/i-wanna/1759674605"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/i-wanna/1759674604?i=1759674605"
+  - number: 14
+    title: "Fernweh"
+    musicUrl: "https://music.apple.com/jp/song/fernweh/1712056243"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/fernweh/1712056242?i=1712056243"
+  - number: 15
+    title: "Singin' little blue bird"
+    musicUrl: "https://music.apple.com/jp/song/singin-little-blue-bird/1740696038"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/singin-little-blue-bird/1740696037?i=1740696038"
+  - number: 16
+    title: "Pandastic Stage!"
+    musicUrl: "https://music.apple.com/jp/song/pandastic-stage/1712055173"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/pandastic-stage/1712055172?i=1712055173"
+  - number: 17
+    title: "To B-eat, or not to B-eat!"
+    musicUrl: "https://music.apple.com/jp/song/to-b-eat-or-not-to-b-eat/1740696026"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/to-b-eat-or-not-to-b-eat/1740696023?i=1740696026"
+  - number: 18
+    title: "巡る暦の花のように"
+    musicUrl: "https://music.apple.com/jp/song/%E5%B7%A1%E3%82%8B%E6%9A%A6%E3%81%AE%E8%8A%B1%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055108"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%B7%A1%E3%82%8B%E6%9A%A6%E3%81%AE%E8%8A%B1%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055107?i=1712055108"
+  - number: 19
+    title: "アクト・レゾナンス"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%A2%E3%82%AF%E3%83%88-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9/1746660746"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%A2%E3%82%AF%E3%83%88-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9/1746660745?i=1746660746"
+  - number: 20
+    title: "マン・ハン・チュエンシー!!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%9E%E3%83%B3-%E3%83%8F%E3%83%B3-%E3%83%81%E3%83%A5%E3%82%A8%E3%83%B3%E3%82%B7%E3%83%BC/1754530158"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%9E%E3%83%B3-%E3%83%8F%E3%83%B3-%E3%83%81%E3%83%A5%E3%82%A8%E3%83%B3%E3%82%B7%E3%83%BC/1754530157?i=1754530158"
+  - number: 21
+    title: "Crystal Bell"
+    musicUrl: "https://music.apple.com/jp/song/crystal-bell/1730929888"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/crystal-bell/1730929885?i=1730929888"
+  - number: 22
+    title: "てぃだんちゅ MEETS てぃんがーら!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%A6%E3%81%83%E3%81%A0%E3%82%93%E3%81%A1%E3%82%85-meets-%E3%81%A6%E3%81%83%E3%82%93%E3%81%8C%E3%83%BC%E3%82%89/1712055134"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%A6%E3%81%83%E3%81%A0%E3%82%93%E3%81%A1%E3%82%85-meets-%E3%81%A6%E3%81%83%E3%82%93%E3%81%8C%E3%83%BC%E3%82%89/1712055133?i=1712055134"
+  - number: 23
+    title: "いろはうたBLOOMING"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%84%E3%82%8D%E3%81%AF%E3%81%86%E3%81%9Fblooming/1720084152"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%84%E3%82%8D%E3%81%AF%E3%81%86%E3%81%9Fblooming/1720084150?i=1720084152"
+  - number: 24
+    title: "夕焼け色は始まりの色"
+    musicUrl: "https://music.apple.com/jp/song/%E5%A4%95%E7%84%BC%E3%81%91%E8%89%B2%E3%81%AF%E5%A7%8B%E3%81%BE%E3%82%8A%E3%81%AE%E8%89%B2/1746661049"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%A4%95%E7%84%BC%E3%81%91%E8%89%B2%E3%81%AF%E5%A7%8B%E3%81%BE%E3%82%8A%E3%81%AE%E8%89%B2/1746661048?i=1746661049"
+  - number: 25
+    title: "Get to Act Life♡"
+    musicUrl: "https://music.apple.com/jp/song/get-to-act-life/1720084542"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/get-to-act-life/1720084541?i=1720084542"
+  - number: 26
+    title: "不可逆的運命ディストピア"
+    musicUrl: "https://music.apple.com/jp/song/%E4%B8%8D%E5%8F%AF%E9%80%86%E7%9A%84%E9%81%8B%E5%91%BD%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%94%E3%82%A2/1720084635"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E4%B8%8D%E5%8F%AF%E9%80%86%E7%9A%84%E9%81%8B%E5%91%BD%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%94%E3%82%A2/1720084634?i=1720084635"
+  - number: 27
+    title: "アタシのアシタはアタシがキメル"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%A2%E3%82%BF%E3%82%B7%E3%81%AE%E3%82%A2%E3%82%B7%E3%82%BF%E3%81%AF%E3%82%A2%E3%82%BF%E3%82%B7%E3%81%8C%E3%82%AD%E3%83%A1%E3%83%AB/1754534112"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%A2%E3%82%BF%E3%82%B7%E3%81%AE%E3%82%A2%E3%82%B7%E3%82%BF%E3%81%AF%E3%82%A2%E3%82%BF%E3%82%B7%E3%81%8C%E3%82%AD%E3%83%A1%E3%83%AB/1754534108?i=1754534112"
+  - number: 28
+    title: "Thirsty Soul"
+    musicUrl: "https://music.apple.com/jp/song/thirsty-soul/1746660919"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/thirsty-soul/1746660768?i=1746660919"
+  - number: 29
+    title: "Black Diary"
+    musicUrl: "https://music.apple.com/jp/song/black-diary/1712055097"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/black-diary/1712055096?i=1712055097"
+  - number: 30
+    title: "ワンダフル・フラワー・ガーデン!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%95%E3%83%AB-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC-%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/1751910901"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%95%E3%83%AB-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC-%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/1751910900?i=1751910901"
+  - number: 31
+    title: "賭世遊戯"
+    musicUrl: "https://music.apple.com/jp/song/%E8%B3%AD%E4%B8%96%E9%81%8A%E6%88%AF/1735685899"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E8%B3%AD%E4%B8%96%E9%81%8A%E6%88%AF/1735685898?i=1735685899"
+  - number: 32
+    title: "Forbidden Fruit Addiction"
+    musicUrl: "https://music.apple.com/jp/song/forbidden-fruit-addiction/1715805675"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/forbidden-fruit-addiction/1715805674?i=1715805675"
+  - number: 33
+    title: "暁星アストレーション"
+    musicUrl: "https://music.apple.com/jp/song/%E6%9A%81%E6%98%9F%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/1712054762"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%9A%81%E6%98%9F%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/1712054761?i=1712054762"
+  - number: 34
+    title: "幾億の星の空で"
+    musicUrl: "https://music.apple.com/jp/song/%E5%B9%BE%E5%84%84%E3%81%AE%E6%98%9F%E3%81%AE%E7%A9%BA%E3%81%A7/1712055142"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%B9%BE%E5%84%84%E3%81%AE%E6%98%9F%E3%81%AE%E7%A9%BA%E3%81%A7/1712055141?i=1712055142"
+  - number: 35
+    title: "純粋と奔放"
+    musicUrl: "https://music.apple.com/jp/song/%E7%B4%94%E7%B2%8B%E3%81%A8%E5%A5%94%E6%94%BE/1712055059"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E7%B4%94%E7%B2%8B%E3%81%A8%E5%A5%94%E6%94%BE/1712055058?i=1712055059"
+  - number: 36
+    title: "Binary Star"
+    musicUrl: "https://music.apple.com/jp/song/binary-star/1712054920"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/binary-star/1712054919?i=1712054920"
+  - number: 37
+    title: "情熱リベレイション"
+    musicUrl: "https://music.apple.com/jp/song/%E6%83%85%E7%86%B1%E3%83%AA%E3%83%99%E3%83%AC%E3%82%A4%E3%82%B7%E3%83%A7%E3%83%B3/1712055160"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%83%85%E7%86%B1%E3%83%AA%E3%83%99%E3%83%AC%E3%82%A4%E3%82%B7%E3%83%A7%E3%83%B3/1712055159?i=1712055160"
+  - number: 38
+    title: "プレイ・マイ・フェイバリット!!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%97%E3%83%AC%E3%82%A4-%E3%83%9E%E3%82%A4-%E3%83%95%E3%82%A7%E3%82%A4%E3%83%90%E3%83%AA%E3%83%83%E3%83%88/1715806196"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%97%E3%83%AC%E3%82%A4-%E3%83%9E%E3%82%A4-%E3%83%95%E3%82%A7%E3%82%A4%E3%83%90%E3%83%AA%E3%83%83%E3%83%88/1715806195?i=1715806196"
+  - number: 39
+    title: "電脳スペクタクル"
+    musicUrl: "https://music.apple.com/jp/song/%E9%9B%BB%E8%84%B3%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%82%AF%E3%83%AB/1735685737"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%9B%BB%E8%84%B3%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%82%AF%E3%83%AB/1735685736?i=1735685737"
+  - number: 40
+    title: "Blondie Revenge Tragedy"
+    musicUrl: "https://music.apple.com/jp/song/blondie-revenge-tragedy/1712055249"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/blondie-revenge-tragedy/1712055248?i=1712055249"
+  - number: 41
+    title: "サマーバカンス☆アクトレス!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%90%E3%82%AB%E3%83%B3%E3%82%B9-%E3%82%A2%E3%82%AF%E3%83%88%E3%83%AC%E3%82%B9/1712055154"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%90%E3%82%AB%E3%83%B3%E3%82%B9-%E3%82%A2%E3%82%AF%E3%83%88%E3%83%AC%E3%82%B9/1712055153?i=1712055154"
+  - number: 42
+    title: "パーティー・ジョーク・シンデレラ"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC-%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AF-%E3%82%B7%E3%83%B3%E3%83%87%E3%83%AC%E3%83%A9/1712055226"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC-%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AF-%E3%82%B7%E3%83%B3%E3%83%87%E3%83%AC%E3%83%A9/1712055135?i=1712055226"
+  - number: 43
+    title: "夏の夜空に光る雪"
+    musicUrl: "https://music.apple.com/jp/song/%E5%A4%8F%E3%81%AE%E5%A4%9C%E7%A9%BA%E3%81%AB%E5%85%89%E3%82%8B%E9%9B%AA/1712055178"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%A4%8F%E3%81%AE%E5%A4%9C%E7%A9%BA%E3%81%AB%E5%85%89%E3%82%8B%E9%9B%AA/1712055177?i=1712055178"
+  - number: 44
+    title: "ひとりの夜のフィルモグラフィー"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%AE%E5%A4%9C%E3%81%AE%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A2%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%BC/1712055217"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%AE%E5%A4%9C%E3%81%AE%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A2%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%BC/1712055215?i=1712055217"
+  - number: 45
+    title: "フレーフレー・ファンファーレ!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%95%E3%83%AC%E3%83%BC-%E3%83%95%E3%82%A1%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%83%AC/1712056518"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%95%E3%83%AC%E3%83%BC-%E3%83%95%E3%82%A1%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%83%AC/1712056517?i=1712056518"
+  - number: 46
+    title: "血を着飾る栄華のために"
+    musicUrl: "https://music.apple.com/jp/song/%E8%A1%80%E3%82%92%E7%9D%80%E9%A3%BE%E3%82%8B%E6%A0%84%E8%8F%AF%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB/1712056330"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E8%A1%80%E3%82%92%E7%9D%80%E9%A3%BE%E3%82%8B%E6%A0%84%E8%8F%AF%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB/1712056329?i=1712056330"
+  - number: 47
+    title: "革命ダンス"
+    musicUrl: "https://music.apple.com/jp/song/%E9%9D%A9%E5%91%BD%E3%83%80%E3%83%B3%E3%82%B9/1712055297"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%9D%A9%E5%91%BD%E3%83%80%E3%83%B3%E3%82%B9/1712055296?i=1712055297"
+  - number: 48
+    title: "きらり!マジカリュー・スマイル!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%8D%E3%82%89%E3%82%8A-%E3%83%9E%E3%82%B8%E3%82%AB%E3%83%AA%E3%83%A5%E3%83%BC-%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB/1715806289"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A-%E3%83%9E%E3%82%B8%E3%82%AB%E3%83%AA%E3%83%A5%E3%83%BC-%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB/1715806288?i=1715806289"
+  - number: 49
+    title: "マイ・ピクチャー・ストーリー"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%9E%E3%82%A4-%E3%83%94%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/1720084358"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%9E%E3%82%A4-%E3%83%94%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/1720084357?i=1720084358"
+  - number: 50
+    title: "トゥインクル・トゥインクル・スクールデイズ!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%88%E3%82%A5%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AB-%E3%83%88%E3%82%A5%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AB-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A4%E3%82%BA/1720084647"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%88%E3%82%A5%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AB-%E3%83%88%E3%82%A5%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AB-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A4%E3%82%BA/1720084646?i=1720084647"
+  - number: 51
+    title: "So long, Say Goodbye"
+    musicUrl: "https://music.apple.com/jp/song/so-long-say-goodbye/1720084680"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/so-long-say-goodbye/1720084366?i=1720084680"
+  - number: 52
+    title: "ちいさないのちのさけるばしょ"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%A1%E3%81%84%E3%81%95%E3%81%AA%E3%81%84%E3%81%AE%E3%81%A1%E3%81%AE%E3%81%95%E3%81%91%E3%82%8B%E3%81%B0%E3%81%97%E3%82%87/1720084526"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%A1%E3%81%84%E3%81%95%E3%81%AA%E3%81%84%E3%81%AE%E3%81%A1%E3%81%AE%E3%81%95%E3%81%91%E3%82%8B%E3%81%B0%E3%81%97%E3%82%87/1720084525?i=1720084526"
+  - number: 53
+    title: "こんなに素晴らしい世界で"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%93%E3%82%93%E3%81%AA%E3%81%AB%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%A7/1720084472"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%93%E3%82%93%E3%81%AA%E3%81%AB%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%A7/1720084471?i=1720084472"
+  - number: 54
+    title: "小さな奇跡の降る夜に"
+    musicUrl: "https://music.apple.com/jp/song/%E5%B0%8F%E3%81%95%E3%81%AA%E5%A5%87%E8%B7%A1%E3%81%AE%E9%99%8D%E3%82%8B%E5%A4%9C%E3%81%AB/1720084682"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E5%A5%87%E8%B7%A1%E3%81%AE%E9%99%8D%E3%82%8B%E5%A4%9C%E3%81%AB/1720084366?i=1720084682"
+  - number: 55
+    title: "HAPPY NEW SHOW TIME!"
+    musicUrl: "https://music.apple.com/jp/song/happy-new-show-time/1726311981"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/happy-new-show-time/1726311980?i=1726311981"
+  - number: 56
+    title: "アンプレザント・ライン"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%A2%E3%83%B3%E3%83%97%E3%83%AC%E3%82%B6%E3%83%B3%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%B3/1730930695"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%A2%E3%83%B3%E3%83%97%E3%83%AC%E3%82%B6%E3%83%B3%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%B3/1730930263?i=1730930695"
+  - number: 57
+    title: "Rolling Stone"
+    musicUrl: "https://music.apple.com/jp/song/rolling-stone/1735686642"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/rolling-stone/1735686641?i=1735686642"
+  - number: 58
+    title: "フタリノスタルジア"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%95%E3%82%BF%E3%83%AA%E3%83%8E%E3%82%B9%E3%82%BF%E3%83%AB%E3%82%B8%E3%82%A2/1730929924"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%95%E3%82%BF%E3%83%AA%E3%83%8E%E3%82%B9%E3%82%BF%E3%83%AB%E3%82%B8%E3%82%A2/1730929923?i=1730929924"
+  - number: 59
+    title: "St. Bitter Sweet"
+    musicUrl: "https://music.apple.com/jp/song/st-bitter-sweet/1730930696"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/st-bitter-sweet/1730930263?i=1730930696"
+  - number: 60
+    title: "深度異症候群-Shindoi Syndrome-"
+    musicUrl: "https://music.apple.com/jp/song/%E6%B7%B1%E5%BA%A6%E7%95%B0%E7%97%87%E5%80%99%E7%BE%A4-shindoi-syndrome/1735687233"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%B7%B1%E5%BA%A6%E7%95%B0%E7%97%87%E5%80%99%E7%BE%A4-shindoi-syndrome/1735687232?i=1735687233"
+  - number: 61
+    title: "MY FIRST ACT!"
+    musicUrl: "https://music.apple.com/jp/song/my-first-act/1740695851"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/my-first-act/1740695849?i=1740695851"
+  - number: 62
+    title: "ふぁうすと・いんぷれっしょん!!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%B5%E3%81%81%E3%81%86%E3%81%99%E3%81%A8-%E3%81%84%E3%82%93%E3%81%B7%E3%82%8C%E3%81%A3%E3%81%97%E3%82%87%E3%82%93/1746660995"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%B5%E3%81%81%E3%81%86%E3%81%99%E3%81%A8-%E3%81%84%E3%82%93%E3%81%B7%E3%82%8C%E3%81%A3%E3%81%97%E3%82%87%E3%82%93/1746660994?i=1746660995"
+  - number: 63
+    title: "ハートフル・レシピ"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%95%E3%83%AB-%E3%83%AC%E3%82%B7%E3%83%94/1740695698"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%95%E3%83%AB-%E3%83%AC%E3%82%B7%E3%83%94/1740695697?i=1740695698"
+  - number: 64
+    title: "Friends Per Second"
+    musicUrl: "https://music.apple.com/jp/song/friends-per-second/1740696358"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/friends-per-second/1740696357?i=1740696358"
+  - number: 65
+    title: "眩しい朝日に照らされて"
+    musicUrl: "https://music.apple.com/jp/song/%E7%9C%A9%E3%81%97%E3%81%84%E6%9C%9D%E6%97%A5%E3%81%AB%E7%85%A7%E3%82%89%E3%81%95%E3%82%8C%E3%81%A6/1746661051"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E7%9C%A9%E3%81%97%E3%81%84%E6%9C%9D%E6%97%A5%E3%81%AB%E7%85%A7%E3%82%89%E3%81%95%E3%82%8C%E3%81%A6/1746661050?i=1746661051"
+  - number: 66
+    title: "Wish upon a star"
+    musicUrl: "https://music.apple.com/jp/song/wish-upon-a-star/1746660956"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/wish-upon-a-star/1746660955?i=1746660956"
+  - number: 67
+    title: "ミックス・アップ・インタレスト!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%A2%E3%83%83%E3%83%97-%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%AC%E3%82%B9%E3%83%88/1746661100"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%A2%E3%83%83%E3%83%97-%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%AC%E3%82%B9%E3%83%88/1746661099?i=1746661100"
+  - number: 68
+    title: "銀月照らす美しき罪"
+    musicUrl: "https://music.apple.com/jp/song/%E9%8A%80%E6%9C%88%E7%85%A7%E3%82%89%E3%81%99%E7%BE%8E%E3%81%97%E3%81%8D%E7%BD%AA/1751911234"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%8A%80%E6%9C%88%E7%85%A7%E3%82%89%E3%81%99%E7%BE%8E%E3%81%97%E3%81%8D%E7%BD%AA/1751911233?i=1751911234"
+  - number: 69
+    title: "雪は春に、そして花束を"
+    musicUrl: "https://music.apple.com/jp/song/%E9%9B%AA%E3%81%AF%E6%98%A5%E3%81%AB-%E3%81%9D%E3%81%97%E3%81%A6%E8%8A%B1%E6%9D%9F%E3%82%92/1754536273"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%9B%AA%E3%81%AF%E6%98%A5%E3%81%AB-%E3%81%9D%E3%81%97%E3%81%A6%E8%8A%B1%E6%9D%9F%E3%82%92/1754536272?i=1754536273"
+  - number: 70
+    title: "リアルタイム・リプライ!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0-%E3%83%AA%E3%83%97%E3%83%A9%E3%82%A4/1754535486"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0-%E3%83%AA%E3%83%97%E3%83%A9%E3%82%A4/1754535484?i=1754535486"
+  - number: 71
+    title: "惑う星達のダンスホール"
+    musicUrl: "https://music.apple.com/jp/song/%E6%83%91%E3%81%86%E6%98%9F%E9%81%94%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1754538575"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%83%91%E3%81%86%E6%98%9F%E9%81%94%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1754538569?i=1754538575"
+  - number: 72
+    title: "Like Blooming Flowers"
+    musicUrl: "https://music.apple.com/jp/song/like-blooming-flowers/1759674723"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/like-blooming-flowers/1759674711?i=1759674723"
+  - number: 73
+    title: "水際PARTY、水着でFUNNY"
+    musicUrl: "https://music.apple.com/jp/song/%E6%B0%B4%E9%9A%9Bparty-%E6%B0%B4%E7%9D%80%E3%81%A7funny/1759674492"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%B0%B4%E9%9A%9Bparty-%E6%B0%B4%E7%9D%80%E3%81%A7funny/1759674491?i=1759674492"
+  - number: 74
+    title: "踊る魔法に観る魔法"
+    musicUrl: "https://music.apple.com/jp/song/%E8%B8%8A%E3%82%8B%E9%AD%94%E6%B3%95%E3%81%AB%E8%A6%B3%E3%82%8B%E9%AD%94%E6%B3%95/1765301070"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E8%B8%8A%E3%82%8B%E9%AD%94%E6%B3%95%E3%81%AB%E8%A6%B3%E3%82%8B%E9%AD%94%E6%B3%95/1765301067?i=1765301070"
+  - number: 75
+    title: "硝子色の欠片"
+    musicUrl: "https://music.apple.com/jp/song/%E7%A1%9D%E5%AD%90%E8%89%B2%E3%81%AE%E6%AC%A0%E7%89%87/1765308519"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E7%A1%9D%E5%AD%90%E8%89%B2%E3%81%AE%E6%AC%A0%E7%89%87/1765308515?i=1765308519"
+  - number: 76
+    title: "Neustart"
+    musicUrl: "https://music.apple.com/jp/song/neustart/1771593255"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/neustart/1771593254?i=1771593255"
+  - number: 77
+    title: "Original Scene"
+    musicUrl: "https://music.apple.com/jp/song/original-scene/1771593009"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/original-scene/1771593008?i=1771593009"
+  - number: 78
+    title: "色即是空卍Trick is Treat!"
+    musicUrl: "https://music.apple.com/jp/song/%E8%89%B2%E5%8D%B3%E6%98%AF%E7%A9%BA%E5%8D%8Dtrick-is-treat/1777385366"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E8%89%B2%E5%8D%B3%E6%98%AF%E7%A9%BA%E5%8D%8Dtrick-is-treat/1777385365?i=1777385366"
+  - number: 79
+    title: "ハチメンロッピング!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%8F%E3%83%81%E3%83%A1%E3%83%B3%E3%83%AD%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/1777385336"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%8F%E3%83%81%E3%83%A1%E3%83%B3%E3%83%AD%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/1777385334?i=1777385336"
+  - number: 80
+    title: "トーキョー・ウィンター・ミュージック"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC-%E3%82%A6%E3%82%A3%E3%83%B3%E3%82%BF%E3%83%BC-%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF/1787252395"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC-%E3%82%A6%E3%82%A3%E3%83%B3%E3%82%BF%E3%83%BC-%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF/1787252394?i=1787252395"
+  - number: 81
+    title: "Sweet Memories"
+    musicUrl: "https://music.apple.com/jp/song/sweet-memories/1787252079"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/sweet-memories/1787252078?i=1787252079"
+  - number: 82
+    title: "ヱテルナ・ガラクシア"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%B1%E3%83%86%E3%83%AB%E3%83%8A-%E3%82%AC%E3%83%A9%E3%82%AF%E3%82%B7%E3%82%A2/1787251919"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%B1%E3%83%86%E3%83%AB%E3%83%8A-%E3%82%AC%E3%83%A9%E3%82%AF%E3%82%B7%E3%82%A2/1787251918?i=1787251919"
+  - number: 83
+    title: "史上最幸NEW YEAR!"
+    musicUrl: "https://music.apple.com/jp/song/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%B9%B8new-year/1792147010"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%B9%B8new-year/1792146798?i=1792147010"
+  - number: 84
+    title: "絶対!ニーデリッヒ宣言♡"
+    musicUrl: "https://music.apple.com/jp/song/%E7%B5%B6%E5%AF%BE-%E3%83%8B%E3%83%BC%E3%83%87%E3%83%AA%E3%83%83%E3%83%92%E5%AE%A3%E8%A8%80/1793496249"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E7%B5%B6%E5%AF%BE-%E3%83%8B%E3%83%BC%E3%83%87%E3%83%AA%E3%83%83%E3%83%92%E5%AE%A3%E8%A8%80/1793496237?i=1793496249"
+  - number: 85
+    title: "いこうよ!ネバーランドへ"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%84%E3%81%93%E3%81%86%E3%82%88-%E3%83%8D%E3%83%90%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E3%81%B8/1793496250"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%84%E3%81%93%E3%81%86%E3%82%88-%E3%83%8D%E3%83%90%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E3%81%B8/1793496237?i=1793496250"
+  - number: 86
+    title: "黎明の残照の果て、新しき光の空へ"
+    musicUrl: "https://music.apple.com/jp/song/%E9%BB%8E%E6%98%8E%E3%81%AE%E6%AE%8B%E7%85%A7%E3%81%AE%E6%9E%9C%E3%81%A6-%E6%96%B0%E3%81%97%E3%81%8D%E5%85%89%E3%81%AE%E7%A9%BA%E3%81%B8/1798703063"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%BB%8E%E6%98%8E%E3%81%AE%E6%AE%8B%E7%85%A7%E3%81%AE%E6%9E%9C%E3%81%A6-%E6%96%B0%E3%81%97%E3%81%8D%E5%85%89%E3%81%AE%E7%A9%BA%E3%81%B8/1798703061?i=1798703063"
+  - number: 87
+    title: "君というメソッドへ"
+    musicUrl: "https://music.apple.com/jp/song/%E5%90%9B%E3%81%A8%E3%81%84%E3%81%86%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E3%81%B8/1798702918"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%90%9B%E3%81%A8%E3%81%84%E3%81%86%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E3%81%B8/1798702917?i=1798702918"
+  - number: 88
+    title: "Act on my feelings."
+    musicUrl: "https://music.apple.com/jp/song/act-on-my-feelings/1805057699"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/act-on-my-feelings/1805057696?i=1805057699"
+  - number: 89
+    title: "想い出はリタルダンド"
+    musicUrl: "https://music.apple.com/jp/song/%E6%83%B3%E3%81%84%E5%87%BA%E3%81%AF%E3%83%AA%E3%82%BF%E3%83%AB%E3%83%80%E3%83%B3%E3%83%89/1805057829"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%83%B3%E3%81%84%E5%87%BA%E3%81%AF%E3%83%AA%E3%82%BF%E3%83%AB%E3%83%80%E3%83%B3%E3%83%89/1805057826?i=1805057829"
+  - number: 90
+    title: "RAREFIED HEIGHTS"
+    musicUrl: "https://music.apple.com/jp/song/rarefied-heights/1805057585"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/rarefied-heights/1805057584?i=1805057585"
+  - number: 91
+    title: "グローリー・ワンダーランド"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%AA%E3%83%BC-%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89/1805058005"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%AA%E3%83%BC-%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89/1805058004?i=1805058005"
+  - number: 92
+    title: "蜃気楼の向こう側、君は笑ってくれるかな"
+    musicUrl: "https://music.apple.com/jp/song/%E8%9C%83%E6%B0%97%E6%A5%BC%E3%81%AE%E5%90%91%E3%81%93%E3%81%86%E5%81%B4-%E5%90%9B%E3%81%AF%E7%AC%91%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%81%8B%E3%81%AA/1810428318"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E8%9C%83%E6%B0%97%E6%A5%BC%E3%81%AE%E5%90%91%E3%81%93%E3%81%86%E5%81%B4-%E5%90%9B%E3%81%AF%E7%AC%91%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%81%8B%E3%81%AA/1810428317?i=1810428318"
+  - number: 93
+    title: "マッピング・マイ・ワールド"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0-%E3%83%9E%E3%82%A4-%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89/1810429132"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0-%E3%83%9E%E3%82%A4-%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89/1810429131?i=1810429132"
+  - number: 94
+    title: "シャボンに浮かぶセカイであおう"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%B7%E3%83%A3%E3%83%9C%E3%83%B3%E3%81%AB%E6%B5%AE%E3%81%8B%E3%81%B6%E3%82%BB%E3%82%AB%E3%82%A4%E3%81%A7%E3%81%82%E3%81%8A%E3%81%86/1810428797"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%B7%E3%83%A3%E3%83%9C%E3%83%B3%E3%81%AB%E6%B5%AE%E3%81%8B%E3%81%B6%E3%82%BB%E3%82%AB%E3%82%A4%E3%81%A7%E3%81%82%E3%81%8A%E3%81%86/1810428796?i=1810428797"
+  - number: 95
+    title: "いつか、薄紅の空の下で"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%84%E3%81%A4%E3%81%8B-%E8%96%84%E7%B4%85%E3%81%AE%E7%A9%BA%E3%81%AE%E4%B8%8B%E3%81%A7/1810152790"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%84%E3%81%A4%E3%81%8B-%E8%96%84%E7%B4%85%E3%81%AE%E7%A9%BA%E3%81%AE%E4%B8%8B%E3%81%A7/1810152778?i=1810152790"
+  - number: 96
+    title: "ティンクル・ティンクル・ティンク!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%86%E3%82%A3%E3%83%B3%E3%82%AF%E3%83%AB-%E3%83%86%E3%82%A3%E3%83%B3%E3%82%AF%E3%83%AB-%E3%83%86%E3%82%A3%E3%83%B3%E3%82%AF/1817379878"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%86%E3%82%A3%E3%83%B3%E3%82%AF%E3%83%AB-%E3%83%86%E3%82%A3%E3%83%B3%E3%82%AF%E3%83%AB-%E3%83%86%E3%82%A3%E3%83%B3%E3%82%AF/1817379877?i=1817379878"
+  - number: 97
+    title: "ハオダー?ハオアー!-好的?好啊!-"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%8F%E3%82%AA%E3%83%80%E3%83%BC-%E3%83%8F%E3%82%AA%E3%82%A2%E3%83%BC-%E5%A5%BD%E7%9A%84-%E5%A5%BD%E5%95%8A/1817380563"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%8F%E3%82%AA%E3%83%80%E3%83%BC-%E3%83%8F%E3%82%AA%E3%82%A2%E3%83%BC-%E5%A5%BD%E7%9A%84-%E5%A5%BD%E5%95%8A/1817380561?i=1817380563"
+  - number: 98
+    title: "Dear My Eden"
+    musicUrl: "https://music.apple.com/jp/song/dear-my-eden/1817379752"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/dear-my-eden/1817379751?i=1817379752"
+  - number: 99
+    title: "Sunny day in June."
+    musicUrl: "https://music.apple.com/jp/song/sunny-day-in-june/1823915485"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/sunny-day-in-june/1823915484?i=1823915485"
+  - number: 100
+    title: "SECRET TRAINING!!!!"
+    musicUrl: "https://music.apple.com/jp/song/secret-training/1823915642"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/secret-training/1823915641?i=1823915642"
+  - number: 101
+    title: "氷雨に舞う火の鳥"
+    musicUrl: "https://music.apple.com/jp/song/%E6%B0%B7%E9%9B%A8%E3%81%AB%E8%88%9E%E3%81%86%E7%81%AB%E3%81%AE%E9%B3%A5/1829336649"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%B0%B7%E9%9B%A8%E3%81%AB%E8%88%9E%E3%81%86%E7%81%AB%E3%81%AE%E9%B3%A5/1829336648?i=1829336649"
+  - number: 102
+    title: "愛に生きる喜びを"
+    musicUrl: "https://music.apple.com/jp/song/%E6%84%9B%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%8B%E5%96%9C%E3%81%B3%E3%82%92/1829337080"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%84%9B%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%8B%E5%96%9C%E3%81%B3%E3%82%92/1829337079?i=1829337080"
+  - number: 103
+    title: "カルペ・ディエム"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%AB%E3%83%AB%E3%83%9A-%E3%83%87%E3%82%A3%E3%82%A8%E3%83%A0/1829337118"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%AB%E3%83%AB%E3%83%9A-%E3%83%87%E3%82%A3%E3%82%A8%E3%83%A0/1829337117?i=1829337118"
+  - number: 104
+    title: "黄昏時、夏の余韻"
+    musicUrl: "https://music.apple.com/jp/song/%E9%BB%84%E6%98%8F%E6%99%82-%E5%A4%8F%E3%81%AE%E4%BD%99%E9%9F%BB/1829336642"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%BB%84%E6%98%8F%E6%99%82-%E5%A4%8F%E3%81%AE%E4%BD%99%E9%9F%BB/1829336641?i=1829336642"
+  - number: 105
+    title: "VIVID BIT AT HOME!"
+    musicUrl: "https://music.apple.com/jp/song/vivid-bit-at-home/1835854377"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/vivid-bit-at-home/1835854376?i=1835854377"
+  - number: 106
+    title: "星に出逢えた夜に歌って"
+    musicUrl: "https://music.apple.com/jp/song/%E6%98%9F%E3%81%AB%E5%87%BA%E9%80%A2%E3%81%88%E3%81%9F%E5%A4%9C%E3%81%AB%E6%AD%8C%E3%81%A3%E3%81%A6/1835854375"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%98%9F%E3%81%AB%E5%87%BA%E9%80%A2%E3%81%88%E3%81%9F%E5%A4%9C%E3%81%AB%E6%AD%8C%E3%81%A3%E3%81%A6/1835854374?i=1835854375"
+  - number: 107
+    title: "ナツのキオクのナイショのホンネ!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%8A%E3%83%84%E3%81%AE%E3%82%AD%E3%82%AA%E3%82%AF%E3%81%AE%E3%83%8A%E3%82%A4%E3%82%B7%E3%83%A7%E3%81%AE%E3%83%9B%E3%83%B3%E3%83%8D/1843278847"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%8A%E3%83%84%E3%81%AE%E3%82%AD%E3%82%AA%E3%82%AF%E3%81%AE%E3%83%8A%E3%82%A4%E3%82%B7%E3%83%A7%E3%81%AE%E3%83%9B%E3%83%B3%E3%83%8D/1843278846?i=1843278847"
+  - number: 108
+    title: "陰陽幻燈譚"
+    musicUrl: "https://music.apple.com/jp/song/%E9%99%B0%E9%99%BD%E5%B9%BB%E7%87%88%E8%AD%9A/1843277901"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%99%B0%E9%99%BD%E5%B9%BB%E7%87%88%E8%AD%9A/1843277900?i=1843277901"
+  - number: 109
+    title: "STARRY STORY!"
+    musicUrl: "https://music.apple.com/jp/song/starry-story/1843279586"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/starry-story/1843279585?i=1843279586"
+  - number: 110
+    title: "アンチ・サニーデイズ・カレンダー"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%A2%E3%83%B3%E3%83%81-%E3%82%B5%E3%83%8B%E3%83%BC%E3%83%87%E3%82%A4%E3%82%BA-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/1843279892"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%A2%E3%83%B3%E3%83%81-%E3%82%B5%E3%83%8B%E3%83%BC%E3%83%87%E3%82%A4%E3%82%BA-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/1843279891?i=1843279892"
+  - number: 111
+    title: "Gazing Dialogue Play"
+    musicUrl: "https://music.apple.com/jp/song/gazing-dialogue-play/1843279489"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/gazing-dialogue-play/1843279488?i=1843279489"
+  - number: 112
+    title: "五条大橋の妖しき化生"
+    musicUrl: "https://music.apple.com/jp/song/%E4%BA%94%E6%9D%A1%E5%A4%A7%E6%A9%8B%E3%81%AE%E5%A6%96%E3%81%97%E3%81%8D%E5%8C%96%E7%94%9F/1848807683"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E4%BA%94%E6%9D%A1%E5%A4%A7%E6%A9%8B%E3%81%AE%E5%A6%96%E3%81%97%E3%81%8D%E5%8C%96%E7%94%9F/1848807681?i=1848807683"
+  - number: 113
+    title: "Aschenputtel"
+    musicUrl: "https://music.apple.com/jp/song/aschenputtel/1848807847"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/aschenputtel/1848807841?i=1848807847"
+  - number: 114
+    title: "ハロー・マイ・ロケット"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%8F%E3%83%AD%E3%83%BC-%E3%83%9E%E3%82%A4-%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88/1856521911"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%8F%E3%83%AD%E3%83%BC-%E3%83%9E%E3%82%A4-%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88/1856521910?i=1856521911"
+  - number: 115
+    title: "誰ガ為ノサダメ"
+    musicUrl: "https://music.apple.com/jp/song/%E8%AA%B0%E3%82%AC%E7%82%BA%E3%83%8E%E3%82%B5%E3%83%80%E3%83%A1/1863856850"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E8%AA%B0%E3%82%AC%E7%82%BA%E3%83%8E%E3%82%B5%E3%83%80%E3%83%A1/1863856847?i=1863856850"
+  - number: 116
+    title: "Vivid-day Happy-day Boost!"
+    musicUrl: "https://music.apple.com/jp/song/vivid-day-happy-day-boost/1863856829"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/vivid-day-happy-day-boost/1863856828?i=1863856829"
+  - number: 117
+    title: "ヴィヴァラヰタ"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%B4%E3%82%A3%E3%83%B4%E3%82%A1%E3%83%A9%E3%83%B0%E3%82%BF/1863856425"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%B4%E3%82%A3%E3%83%B4%E3%82%A1%E3%83%A9%E3%83%B0%E3%82%BF/1863856424?i=1863856425"
+  - number: 118
+    title: "テアトルム・アストラーレ"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%86%E3%82%A2%E3%83%88%E3%83%AB%E3%83%A0-%E3%82%A2%E3%82%B9%E3%83%88%E3%83%A9%E3%83%BC%E3%83%AC/1863857446"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%86%E3%82%A2%E3%83%88%E3%83%AB%E3%83%A0-%E3%82%A2%E3%82%B9%E3%83%88%E3%83%A9%E3%83%BC%E3%83%AC/1863857445?i=1863857446"
+  - number: 119
+    title: "開運御礼初詣!"
+    musicUrl: "https://music.apple.com/jp/song/%E9%96%8B%E9%81%8B%E5%BE%A1%E7%A4%BC%E5%88%9D%E8%A9%A3/1871103294"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%96%8B%E9%81%8B%E5%BE%A1%E7%A4%BC%E5%88%9D%E8%A9%A3/1871103157?i=1871103294"
+  - number: 120
+    title: "バブリック・ビューイング!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%90%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF-%E3%83%93%E3%83%A5%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0/1871103295"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%90%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF-%E3%83%93%E3%83%A5%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0/1871103157?i=1871103295"
+  - number: 121
+    title: "錆びついた胸に一雫の心を"
+    musicUrl: "https://music.apple.com/jp/song/%E9%8C%86%E3%81%B3%E3%81%A4%E3%81%84%E3%81%9F%E8%83%B8%E3%81%AB%E4%B8%80%E9%9B%AB%E3%81%AE%E5%BF%83%E3%82%92/1880587869"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%8C%86%E3%81%B3%E3%81%A4%E3%81%84%E3%81%9F%E8%83%B8%E3%81%AB%E4%B8%80%E9%9B%AB%E3%81%AE%E5%BF%83%E3%82%92/1880587868?i=1880587869"
+  - number: 122
+    title: "エクストラ・エキストラ! -Extra Extra-"
+    musicUrl: "https://music.apple.com/jp/song/%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%A9-%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%88%E3%83%A9-extra-extra/1880587917"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%A9-%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%88%E3%83%A9-extra-extra/1880587916?i=1880587917"
+  - number: 123
+    title: "未来への前奏曲-Prelude-"
+    musicUrl: "https://music.apple.com/jp/song/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E5%89%8D%E5%A5%8F%E6%9B%B2-prelude/1880588069"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E5%89%8D%E5%A5%8F%E6%9B%B2-prelude/1880588068?i=1880588069"
+  - number: 124
+    title: "Astral×Relation"
+    musicUrl: "https://music.apple.com/jp/song/astral-relation/1880587889"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/astral-relation/1880587888?i=1880587889"
+  - number: 125
+    title: "空っぽのギフトボックス"
+    musicUrl: "https://music.apple.com/jp/song/%E7%A9%BA%E3%81%A3%E3%81%BD%E3%81%AE%E3%82%AE%E3%83%95%E3%83%88%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9/1889454898"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E7%A9%BA%E3%81%A3%E3%81%BD%E3%81%AE%E3%82%AE%E3%83%95%E3%83%88%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9/1889454897?i=1889454898"
+  - number: 126
+    title: "八躯モ断ツ剣ノ傍デ"
+    musicUrl: "https://music.apple.com/jp/song/%E5%85%AB%E8%BA%AF%E3%83%A2%E6%96%AD%E3%83%84%E5%89%A3%E3%83%8E%E5%82%8D%E3%83%87/1889455136"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%85%AB%E8%BA%AF%E3%83%A2%E6%96%AD%E3%83%84%E5%89%A3%E3%83%8E%E5%82%8D%E3%83%87/1889455135?i=1889455136"
+  - number: 127
+    title: "情熱と歓喜のCarnaval!"
+    musicUrl: "https://music.apple.com/jp/song/%E6%83%85%E7%86%B1%E3%81%A8%E6%AD%93%E5%96%9C%E3%81%AEcarnaval/1889455203"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E6%83%85%E7%86%B1%E3%81%A8%E6%AD%93%E5%96%9C%E3%81%AEcarnaval/1889455202?i=1889455203"
+  - number: 128
+    title: "劇団電姫すいっちおん!"
+    musicUrl: "https://music.apple.com/jp/song/%E5%8A%87%E5%9B%A3%E9%9B%BB%E5%A7%AB%E3%81%99%E3%81%84%E3%81%A3%E3%81%A1%E3%81%8A%E3%82%93/6763994266"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%8A%87%E5%9B%A3%E9%9B%BB%E5%A7%AB%E3%81%99%E3%81%84%E3%81%A3%E3%81%A1%E3%81%8A%E3%82%93/1895590646?i=6763994266"
+  - number: 129
+    title: "私の愛は愛を殺す"
+    musicUrl: "https://music.apple.com/jp/song/%E7%A7%81%E3%81%AE%E6%84%9B%E3%81%AF%E6%84%9B%E3%82%92%E6%AE%BA%E3%81%99/6775384715"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E7%A7%81%E3%81%AE%E6%84%9B%E3%81%AF%E6%84%9B%E3%82%92%E6%AE%BA%E3%81%99/6775384714?i=6775384715"
+  - number: 130
+    title: "Besties' Place!"
+    musicUrl: "https://music.apple.com/jp/song/besties-place/6775384879"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/besties-place/6775384878?i=6775384879"
+  - number: 131
+    title: "ふろうてぃんぐ・ていすてぃ"
+    musicUrl: "https://music.apple.com/jp/song/%E3%81%B5%E3%82%8D%E3%81%86%E3%81%A6%E3%81%83%E3%82%93%E3%81%90-%E3%81%A6%E3%81%84%E3%81%99%E3%81%A6%E3%81%83/6775384851"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%81%B5%E3%82%8D%E3%81%86%E3%81%A6%E3%81%83%E3%82%93%E3%81%90-%E3%81%A6%E3%81%84%E3%81%99%E3%81%A6%E3%81%83/6775384850?i=6775384851"
+  - number: 132
+    title: "非対称性のダンス"
+    musicUrl: "https://music.apple.com/jp/song/%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B9/6786143828"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B9/6786143827?i=6786143828"
+  - number: 133
+    title: "Fly to the WORLD"
+    musicUrl: "https://music.apple.com/jp/song/fly-to-the-world/6786144341"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/fly-to-the-world/6786144339?i=6786144341"
+  - number: 134
+    title: "夢のステラリウム"
+    musicUrl: "https://music.apple.com/jp/song/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1713850259"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1713850258?i=1713850259"
+  - number: 135
+    title: "夢のステラリウム"
+    musicUrl: "https://music.apple.com/jp/song/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1720084683"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1720084366?i=1720084683"
+  - number: 136
+    title: "夢のステラリウム"
+    musicUrl: "https://music.apple.com/jp/song/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1730930697"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1730930263?i=1730930697"
+  - number: 137
+    title: "夢のステラリウム"
+    musicUrl: "https://music.apple.com/jp/song/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1740697610"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1740697535?i=1740697610"
+  - number: 138
+    title: "夢のステラリウム"
+    musicUrl: "https://music.apple.com/jp/song/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1751911709"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%A4%A2%E3%81%AE%E3%82%B9%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A6%E3%83%A0/1751911486?i=1751911709"
+  - number: 139
+    title: "Worlds Dye Star"
+    musicUrl: "https://music.apple.com/jp/song/worlds-dye-star/1793496251"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/worlds-dye-star/1793496237?i=1793496251"
+  - number: 140
+    title: "Worlds Dye Star"
+    musicUrl: "https://music.apple.com/jp/song/worlds-dye-star/1871103297"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/worlds-dye-star/1871103157?i=1871103297"
+  - number: 141
+    title: "Worlds Dye Star"
+    musicUrl: "https://music.apple.com/jp/song/worlds-dye-star/6763029186"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/worlds-dye-star/1895127770?i=6763029186"
+  - number: 142
+    title: "Worlds Dye Star"
+    musicUrl: "https://music.apple.com/jp/song/worlds-dye-star/1810152791"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/worlds-dye-star/1810152778?i=1810152791"
+  - number: 143
+    title: "Worlds Dye Star"
+    musicUrl: "https://music.apple.com/jp/song/worlds-dye-star/1828121000"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/worlds-dye-star/1828120742?i=1828121000"
+  - number: 144
+    title: "Worlds Dye Star"
+    musicUrl: "https://music.apple.com/jp/song/worlds-dye-star/1847842300"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/worlds-dye-star/1847842272?i=1847842300"
+  - number: 145
+    title: "Worlds Dye Star"
+    musicUrl: "https://music.apple.com/jp/song/worlds-dye-star/1786301903"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/worlds-dye-star/1786301902?i=1786301903"
+  - number: 146
+    title: "ワナビスタ!"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%AF%E3%83%8A%E3%83%93%E3%82%B9%E3%82%BF/1838891113"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%AF%E3%83%8A%E3%83%93%E3%82%B9%E3%82%BF/1838891112?i=1838891113"
+  - number: 147
+    title: "勿忘唄"
+    musicUrl: "https://music.apple.com/jp/song/%E5%8B%BF%E5%BF%98%E5%94%84/1838889044"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%8B%BF%E5%BF%98%E5%94%84/1838889043?i=1838889044"
+  - number: 148
+    title: "夢見月夜"
+    musicUrl: "https://music.apple.com/jp/song/%E5%A4%A2%E8%A6%8B%E6%9C%88%E5%A4%9C/1838889045"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%A4%A2%E8%A6%8B%E6%9C%88%E5%A4%9C/1838889043?i=1838889045"
+  - number: 149
+    title: "New Nostalgic Friend"
+    musicUrl: "https://music.apple.com/jp/song/new-nostalgic-friend/1838889194"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/new-nostalgic-friend/1838889043?i=1838889194"
+  - number: 150
+    title: "ダイヤモンドの誓い"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%81%AE%E8%AA%93%E3%81%84/1838889195"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%81%AE%E8%AA%93%E3%81%84/1838889043?i=1838889195"
+  - number: 151
+    title: "魔法のラストノート"
+    musicUrl: "https://music.apple.com/jp/song/%E9%AD%94%E6%B3%95%E3%81%AE%E3%83%A9%E3%82%B9%E3%83%88%E3%83%8E%E3%83%BC%E3%83%88/1838889196"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E9%AD%94%E6%B3%95%E3%81%AE%E3%83%A9%E3%82%B9%E3%83%88%E3%83%8E%E3%83%BC%E3%83%88/1838889043?i=1838889196"
+  - number: 152
+    title: "名もなき恋人よ"
+    musicUrl: "https://music.apple.com/jp/song/%E5%90%8D%E3%82%82%E3%81%AA%E3%81%8D%E6%81%8B%E4%BA%BA%E3%82%88/1838889205"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E5%90%8D%E3%82%82%E3%81%AA%E3%81%8D%E6%81%8B%E4%BA%BA%E3%82%88/1838889043?i=1838889205"
+  - number: 153
+    title: "Etoile"
+    musicUrl: "https://music.apple.com/jp/song/etoile/1838889216"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/etoile/1838889043?i=1838889216"
+  - number: 154
+    title: "Masquerade"
+    musicUrl: "https://music.apple.com/jp/song/masquerade/1838889218"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/masquerade/1838889043?i=1838889218"
+  - number: 155
+    title: "Farewell song"
+    musicUrl: "https://music.apple.com/jp/song/farewell-song/1838889219"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/farewell-song/1838889043?i=1838889219"
+  - number: 156
+    title: "トゥ・オブ・アス"
+    musicUrl: "https://music.apple.com/jp/song/%E3%83%88%E3%82%A5-%E3%82%AA%E3%83%96-%E3%82%A2%E3%82%B9/1838891114"
+    musicEmbedUrl: "https://embed.music.apple.com/jp/album/%E3%83%88%E3%82%A5-%E3%82%AA%E3%83%96-%E3%82%A2%E3%82%B9/1838891112?i=1838891114"

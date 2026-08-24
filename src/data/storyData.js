@@ -1,13 +1,16 @@
 import { parse } from 'yaml'
 import charactersSource from './characters.yml?raw'
+import musicSource from './music.yaml?raw'
 import storiesSource from './stories.yml?raw'
 import storyIndex from './story-index.json'
 
 const charactersDocument = parse(charactersSource)
+const musicDocument = parse(musicSource)
 const storiesDocument = parse(storiesSource)
 
 export const troupes = storiesDocument.troupes
 export const availableCharacters = charactersDocument.characters
+export const availableMusic = musicDocument.tracks
 // 同じ章のメインストーリーは、ゲーム内の劇団順で左から並べる。
 const mainTroupeOrder = new Map([
   [1, 0],
@@ -113,6 +116,7 @@ function buildStories() {
         kinds,
         troupeIds: normalizeTroupeIds(override.troupeId ?? story.troupeId),
         characterIds: override.characterIds ?? [],
+        musicId: override.musicId ?? story.musicId ?? null,
         releaseDate: override.releaseDate ?? story.releaseDate ?? null,
       }
     })
@@ -121,6 +125,14 @@ function buildStories() {
 function assertData(stories) {
   const validKinds = new Set(['main_chapter', 'event', 'collaboration', 'key_story', 'spot', 'actor_side', 'finale'])
   const characterIds = new Set(availableCharacters.map(({ id }) => String(id)))
+  const musicIds = new Set()
+  availableMusic.forEach((music) => {
+    if (!Number.isInteger(music.number) || music.number < 1) throw new Error(`不正なmusicId: ${music.number}`)
+    const id = String(music.number)
+    if (musicIds.has(id)) throw new Error(`重複したmusicId: ${music.number}`)
+    if (!music.title || !music.musicUrl || !music.musicEmbedUrl) throw new Error(`musicId ${music.number} の楽曲情報が不足しています`)
+    musicIds.add(id)
+  })
   const troupeIds = new Set([...troupes.map(({ id }) => String(id)), 'prologue', 'finale'])
   const storyIds = new Set()
   const sourceIds = new Map()
@@ -137,6 +149,9 @@ function assertData(stories) {
     story.characterIds.forEach((id) => {
       if (!characterIds.has(String(id))) throw new Error(`${story.id} が未定義キャラクター ${id} を参照しています`)
     })
+    if (story.musicId !== null && !musicIds.has(String(story.musicId))) {
+      throw new Error(`${story.id} が未定義楽曲 ${story.musicId} を参照しています`)
+    }
     story.troupeIds.forEach((id) => {
       if (!troupeIds.has(String(id))) throw new Error(`${story.id} が未定義劇団 ${id} を参照しています`)
     })
@@ -150,6 +165,7 @@ function buildFlowData() {
   const stories = buildStories()
   assertData(stories)
   const characterMap = new Map(availableCharacters.map((character) => [String(character.id), character]))
+  const musicMap = new Map(availableMusic.map((music) => [String(music.number), music]))
   const troupeMap = new Map(troupes.map((troupe) => [troupe.id, troupe]))
   const { centerX, episodeSpacing, rowSpacing, mixedEventOffset = 70 } = storiesDocument.layout
   const troupeXMap = new Map([...mainTroupeOrder].map(([troupeId, order]) => [
@@ -160,18 +176,24 @@ function buildFlowData() {
   const eventStories = stories.filter(({ kind }) => kind === 'event').sort(compareStoriesByRelease)
   const automaticEdges = buildAutomaticEdges(stories)
 
-  const toNode = (story, position) => ({
-    id: story.id,
-    type: 'story',
-    position,
-    data: {
-      ...story,
-      releaseDate: story.releaseDate ?? '公開日未設定',
-      characters: story.characterIds.map((id) => characterMap.get(String(id))),
-      troupes: story.troupeIds.map((id) => troupeMap.get(id)).filter(Boolean),
-      troupe: troupeMap.get(primaryTroupeId(story)),
-    },
-  })
+  const toNode = (story, position) => {
+    const music = story.musicId === null ? null : musicMap.get(String(story.musicId))
+    return {
+      id: story.id,
+      type: 'story',
+      position,
+      data: {
+        ...story,
+        releaseDate: story.releaseDate ?? '公開日未設定',
+        characters: story.characterIds.map((id) => characterMap.get(String(id))),
+        music,
+        musicUrl: music?.musicUrl ?? null,
+        musicEmbedUrl: music?.musicEmbedUrl ?? null,
+        troupes: story.troupeIds.map((id) => troupeMap.get(id)).filter(Boolean),
+        troupe: troupeMap.get(primaryTroupeId(story)),
+      },
+    }
+  }
   const nodes = []
   const mainGroupsByRelease = new Map()
   mainStories.forEach((story) => {

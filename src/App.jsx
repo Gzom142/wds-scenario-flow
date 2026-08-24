@@ -2,19 +2,37 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Background, Controls, MiniMap, ReactFlow, ReactFlowProvider, useReactFlow } from '@xyflow/react'
 import Filter from './components/Filter.jsx'
 import SidePanel from './components/SidePanel.jsx'
+import StoryNavigator from './components/StoryNavigator.jsx'
 import StoryNode from './components/StoryNode.jsx'
 import { availableCharacters, initialEdges, initialNodes, troupes } from './data/storyData.js'
 
 const nodeTypes = { story: StoryNode }
 const emptyFilter = { troupeId: '', characterId: '' }
 
-function FlowCanvas({ nodes, edges, onSelect }) {
+function FlowCanvas({ nodes, edges, selectedNodeId, focusRequest, onSelect }) {
   const { fitView } = useReactFlow()
+  const flowNodes = useMemo(() => nodes.map((node) => ({
+    ...node,
+    selected: node.id === selectedNodeId,
+  })), [nodes, selectedNodeId])
+
   useEffect(() => {
     const frame = requestAnimationFrame(() => fitView({ padding: 0.22, duration: 260, maxZoom: 1 }))
     return () => cancelAnimationFrame(frame)
   }, [nodes, fitView])
-  return <ReactFlow nodes={nodes} edges={edges} nodeTypes={nodeTypes} onNodeClick={(_, node) => onSelect(node)} fitView fitViewOptions={{ padding: 0.22, maxZoom: 1 }} nodesDraggable={false} nodesConnectable={false} elementsSelectable>
+
+  useEffect(() => {
+    if (!focusRequest) return undefined
+    const frame = requestAnimationFrame(() => fitView({
+      nodes: [{ id: focusRequest.nodeId }],
+      padding: 0.8,
+      duration: 480,
+      maxZoom: 1.25,
+    }))
+    return () => cancelAnimationFrame(frame)
+  }, [focusRequest, fitView])
+
+  return <ReactFlow nodes={flowNodes} edges={edges} nodeTypes={nodeTypes} onNodeClick={(_, node) => onSelect(node)} fitView fitViewOptions={{ padding: 0.22, maxZoom: 1 }} nodesDraggable={false} nodesConnectable={false} elementsSelectable>
     <Background gap={24} size={1} color="#ded9e8" />
     <Controls showInteractive={false} />
     <MiniMap pannable zoomable nodeColor={(node) => node.data?.troupe?.color ?? '#817a91'} />
@@ -25,6 +43,7 @@ export default function App() {
   const [draft, setDraft] = useState(emptyFilter)
   const [filter, setFilter] = useState(emptyFilter)
   const [selectedNodeId, setSelectedNodeId] = useState(null)
+  const [focusRequest, setFocusRequest] = useState(null)
 
   const { nodes, edges } = useMemo(() => {
     const matches = (node) => (
@@ -43,8 +62,15 @@ export default function App() {
 
   const selectedNode = nodes.find((node) => node.id === selectedNodeId) ?? null
   const selectNode = useCallback((node) => setSelectedNodeId(node.id), [])
-  const apply = () => { setFilter(draft); setSelectedNodeId(null) }
-  const reset = () => { setDraft(emptyFilter); setFilter(emptyFilter); setSelectedNodeId(null) }
+  const navigateToNode = useCallback((nodeId) => {
+    setSelectedNodeId(nodeId)
+    setFocusRequest((current) => nodeId ? {
+      nodeId,
+      sequence: (current?.sequence ?? 0) + 1,
+    } : null)
+  }, [])
+  const apply = () => { setFilter(draft); setSelectedNodeId(null); setFocusRequest(null) }
+  const reset = () => { setDraft(emptyFilter); setFilter(emptyFilter); setSelectedNodeId(null); setFocusRequest(null) }
 
   return <main className="app-shell">
     <p className="data-notice" role="status">現時点で各データは未入力の部分があります</p>
@@ -58,8 +84,9 @@ export default function App() {
     </header>
     <Filter draft={draft} onChange={setDraft} onApply={apply} onReset={reset} troupes={troupes} characters={availableCharacters} />
     <ReactFlowProvider>
+      <StoryNavigator nodes={nodes} selectedNodeId={selectedNodeId} onSelect={navigateToNode} />
       <section className="workspace" aria-label="ストーリーライン">
-        <div className="flow-area"><FlowCanvas nodes={nodes} edges={edges} onSelect={selectNode} /></div>
+        <div className="flow-area"><FlowCanvas nodes={nodes} edges={edges} selectedNodeId={selectedNodeId} focusRequest={focusRequest} onSelect={selectNode} /></div>
         <SidePanel node={selectedNode} onClose={() => setSelectedNodeId(null)} />
       </section>
     </ReactFlowProvider>

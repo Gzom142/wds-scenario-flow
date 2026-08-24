@@ -24,21 +24,22 @@ troupes:
 # story-index.json の索引データへ補足する、手動管理の情報。
 # sourceId は story-index.json の sourceId を指定する。
 # tweetUrl は公式Xの投稿本体URL（https://x.com/.../status/...）を指定する。
+# musicId は music.yaml の number を指定する。
 overrides:
   - sourceId: 10101
     characterIds: [1, 2, 3, 4, 5, 6]
-    musicUrl: https://music.apple.com/jp/album/%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E8%BC%9D%E3%81%8D%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055268?i=1712055269
-    musicEmbedUrl: https://embed.music.apple.com/jp/album/%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E8%BC%9D%E3%81%8D%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/1712055268?i=1712055269
+    musicId: 1
   - sourceId: 10102
     characterIds: [1, 2, 3, 4, 5, 6]
     tweetUrl: https://x.com/wds_game/status/1685198725503975424
   - sourceId: 10103
     characterIds: [1, 2, 3, 4, 5, 6]
     tweetUrl: https://x.com/wds_game/status/1816747430383415724
-  - sourceId: 10103
+  - sourceId: 10104
     characterIds: [1, 2, 3, 4, 5, 6]
     tweetUrl: https://x.com/wds_game/status/1946523455735955889
   - sourceId: 10201
+    musicId: 4
     characterIds: [17, 18, 19, 20, 21]
   - sourceId: 10202
     characterIds: [17, 18, 19, 20, 21]
@@ -52,6 +53,7 @@ overrides:
     tweetUrl: https://x.com/wds_game/status/2045819698928033976
   - sourceId: 10301
     characterIds: [7, 8, 9, 10, 11]
+    musicId: 2
   - sourceId: 10302
     characterIds: [7, 8, 9, 10, 11]
     tweetUrl: https://x.com/wds_game/status/1716773278000496892
@@ -62,6 +64,7 @@ overrides:
     characterIds: [7, 8, 9, 10, 11]
     tweetUrl: https://x.com/wds_game/status/1980182196813271285
   - sourceId: 10401
+    musicId: 3
     characterIds: [12, 13, 14, 15, 16]
   - sourceId: 10402
     characterIds: [12, 13, 14, 15, 16]
